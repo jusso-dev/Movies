@@ -46,6 +46,12 @@ namespace Movies.Controllers
             return View();
         }
 
+        [AllowAnonymous]
+        public IActionResult AdminOnly() 
+        {
+            return View();
+        }
+
         public async Task <IActionResult> Movies()
         {
             var movies = from m in _context.Movies

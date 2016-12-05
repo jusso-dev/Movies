@@ -32,4 +32,21 @@
 
 .footer {
     margin-bottom: 0px;
+    position: static;
+}
+
+.table {
+    margin-top: 5%;
+}
+
+.btn-primary {
+    float: left;
+    margin-left: 1%;
+    margin-top: 2%;
+}
+
+#homeBtn {
+    float: right;
+    margin-right: 1%;
+    margin-top: 2%;
 }

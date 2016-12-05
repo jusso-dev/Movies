@@ -22,6 +22,7 @@ namespace Movies.Controllers
         private readonly IEmailSender _emailSender;
         private readonly ISmsSender _smsSender;
         private readonly ILogger _logger;
+        public static string userAdminEmail = "admin@admin.com";
 
         public AccountController(
             UserManager<ApplicationUser> userManager,
@@ -88,17 +89,24 @@ namespace Movies.Controllers
         //
         // GET: /Account/Register
         [HttpGet]
-        [AllowAnonymous]
-        public IActionResult Register(string returnUrl = null)
+        public async Task <IActionResult> Register(string returnUrl = null)
         {
-            ViewData["ReturnUrl"] = returnUrl;
-            return View();
+            var user = await _userManager.GetUserAsync(User);
+            var email = user.Email;
+
+            if(email == userAdminEmail) 
+            {
+                ViewData["ReturnUrl"] = returnUrl;
+                return View();
+            }
+            
+            else return Redirect("/Home/AdminOnly");
+            
         }
 
         //
         // POST: /Account/Register
         [HttpPost]
-        [AllowAnonymous]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Register(RegisterViewModel model, string returnUrl = null)
         {

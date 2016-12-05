@@ -29,3 +29,24 @@
 .list-group-item .ol {
     color: white;
 }
+
+.footer {
+    margin-bottom: 0px;
+    position: static;
+}
+
+.table {
+    margin-top: 50px;
+}
+
+.btn-primary {
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#homeBtn {
+    float: right;
+    margin-right: 5px;
+    margin-top: 5px;
+}
