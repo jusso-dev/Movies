@@ -1,9 +1,12 @@
-﻿using System.Linq;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Movies.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authorization;
+using NLog;
 
 namespace Movies.Controllers
 {
@@ -12,6 +15,7 @@ namespace Movies.Controllers
     {
 
         private readonly ApplicationDbContext _context;
+        private static Logger Log = LogManager.GetCurrentClassLogger();
 
         public HomeController(ApplicationDbContext context)
         {
@@ -52,11 +56,20 @@ namespace Movies.Controllers
 
         public async Task <IActionResult> Movies()
         {
-            var movies = from m in _context.Movies
-                         orderby m.Title
-                         select m;   
+            try
+            {
+                var movies = from m in _context.Movies
+                         orderby m.Title ascending
+                         select m;
 
-            return View(await movies.ToListAsync());
+                return View(await movies.ToListAsync());
+            }
+            catch (Exception e)
+            {
+                Log.LogException(LogLevel.Error, "There was an error getting Movies ", e.InnerException);
+                return Redirect("/Home/Error");
+            }
+            
         }
     }
 }

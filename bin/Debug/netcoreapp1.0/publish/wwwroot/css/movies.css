@@ -1,0 +1,52 @@
+﻿.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.carousel {
+    margin-top: 100px;
+}
+
+.image {
+    height: 200px;
+    width: 150px;
+    margin-top: 50px;
+}
+
+.col-xs-6 {
+    color: white;
+}
+
+.jumbotron {
+    margin-top: 50px;
+    background-color: lightgray;
+    text-align: left;
+}
+
+.body-content {
+    margin-top: 50px;
+}
+
+.list-group-item .ol {
+    color: white;
+}
+
+.footer {
+    margin-bottom: 0px;
+    position: static;
+}
+
+.table {
+    margin-top: 50px;
+}
+
+.btn-primary {
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#homeBtn {
+    float: right;
+    margin-right: 5px;
+    margin-top: 5px;
+}

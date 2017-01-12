@@ -12,6 +12,7 @@ using Microsoft.Extensions.Logging;
 using Movies.Data;
 using Movies.Models;
 using Movies.Services;
+using NLog.Extensions.Logging;
 
 namespace Movies
 {
@@ -65,7 +66,9 @@ namespace Movies
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
 
-            app.UseApplicationInsightsRequestTelemetry();
+            loggerFactory.AddNLog();
+
+            env.ConfigureNLog("nlog.config");
 
             if (env.IsDevelopment())
             {

@@ -1,13 +1,15 @@
+using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Movies.Data;
 using Microsoft.AspNetCore.Authorization;
 using Movies.Models;
-using Microsoft.Extensions.Logging;
-using System;
+using NLog;
 
 namespace Movies.Controllers
 {
@@ -16,15 +18,13 @@ namespace Movies.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly UserManager<Models.ApplicationUser> _userManager;
+        private static Logger Log = LogManager.GetCurrentClassLogger();
         public static string userAdminEmail = "admin@admin.com";
-        private readonly ILogger _logger;
 
-        public MovieController(ApplicationDbContext context, UserManager<ApplicationUser> userManager, 
-        ILoggerFactory loggerFactory)
+        public MovieController(ApplicationDbContext context, UserManager<ApplicationUser> userManager)
         {
             _context = context;    
             _userManager = userManager;
-            _logger = loggerFactory.CreateLogger<MovieController>();
         }
 
         // GET: Movie
@@ -97,8 +97,10 @@ namespace Movies.Controllers
                 }
                 catch (Exception e)
                 {
-                    _logger.LogError(e.StackTrace);
+                    Log.LogException(LogLevel.Error, "There was an error adding Movie ", e.InnerException);
                 }
+                
+                
             }
             return View(movie);
         }
@@ -117,7 +119,6 @@ namespace Movies.Controllers
 
             if (movie == null)
             {
-                _logger.LogWarning(2, "Movie Not Found");
                 return NotFound();
             }
 
@@ -148,7 +149,7 @@ namespace Movies.Controllers
                     _context.Update(movie);
                     await _context.SaveChangesAsync();
                 }
-                catch (DbUpdateConcurrencyException)
+                catch (DbUpdateConcurrencyException e)
                 {
                     if (!MovieExists(movie.id))
                     {
@@ -156,7 +157,7 @@ namespace Movies.Controllers
                     }
                     else
                     {
-                        throw;
+                        Log.LogException(LogLevel.Error, "Movie already exists! ", e.InnerException);
                     }
                 }
                 return RedirectToAction("Index");
@@ -169,7 +170,6 @@ namespace Movies.Controllers
         {
             if (id == null)
             {
-                _logger.LogWarning(2, "Movie Not Found");
                 return NotFound();
             }
 
@@ -195,11 +195,18 @@ namespace Movies.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var movie = await _context.Movies.SingleOrDefaultAsync(m => m.id == id);
-            _context.Movies.Remove(movie);
-            await _context.SaveChangesAsync();
-            _logger.LogInformation(2, "Movie Deleted");
-            return RedirectToAction("Index");
+            try
+            {
+                var movie = await _context.Movies.SingleOrDefaultAsync(m => m.id == id);
+                _context.Movies.Remove(movie);
+                await _context.SaveChangesAsync();
+                return RedirectToAction("Index");
+            }
+            catch (Exception e)
+            {
+                Log.LogException(LogLevel.Error, "There was an error removing Movie ", e.InnerException);
+                return Redirect("/Home/Error");
+            }
         }
 
         private bool MovieExists(int id)
