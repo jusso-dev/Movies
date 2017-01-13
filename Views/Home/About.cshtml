@@ -3,10 +3,40 @@
 }
 
 <head>
-    <link rel="stylesheet" href="~/css/movies.css">
+   <meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="wwwroot/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="~/css/main.css" />
+		<link rel="stylesheet" href="~/fonts/fontawesome-webfont.eot"></link>
+		<link rel="stylesheet" href="~/fonts/fontawesome-webfont.svg"></link>
+		<link rel="stylesheet" href="~/fonts/fontawesome-webfont.ttf"></link>
+		<link rel="stylesheet" href="~/fonts/fontawesome-webfont.woff"></link>
+		<link rel="stylesheet" href="~/fonts/fontawesome-webfont.woff2"></link>
+		<link rel="stylesheet" href="~/fonts/FontAwesome.otf"></link>
 </head>
 
 <body class="body-content">
+
+<!-- Header -->
+					<header id="header" class="alt">
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="/">Home</a></li>
+											<li><a href="/Home/About">About</a></li>
+											<li><a href="/Home/Movies">Movies</a></li>
+											<li><a href="/Account/Register">Sign Up</a></li>
+											<li><a href="/Account/Login">Log In</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
 <div class="page-header">
   <h1>How to get started adding movies</h1>
 </div>
@@ -52,6 +82,15 @@
     </ol>
   </a>
 </div>
+
+<!-- Scripts -->
+        <script src="~/js/jquery.scrollex.min.js"></script>
+        <script src="~/js/jquery.scrolly.min.js"></script>
+        <script src="~/js/main.js"></script>
+        <script src="~/js/site.js"></script>
+        <script src="~/js/site.min.js"></script>
+        <script src="~/js/skel.min.js"></script>
+        <script src="~/js/util.js"></script>
 
 </body>
 

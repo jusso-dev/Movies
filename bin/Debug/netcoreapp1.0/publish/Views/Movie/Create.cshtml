@@ -8,54 +8,58 @@
 
 <html>
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <link href="https://bootswatch.com/cyborg/bootstrap.min.css" rel="stylesheet" />
+    <meta charset="utf-2" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-2" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--[if lte IE 2]><script src="wwwroot/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="~/css/main.css" />
     <title>Create</title>
 </head>
 <body>
 
 <form asp-action="Create">
     <div class="form-horizontal">
-        <h4>Movie</h4>
+        <h2>Movie</h2>
         <hr />
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
         <div class="form-group">
             <label asp-for="Title" class="col-md-2 control-label"></label>
-            <div class="col-md-3">
+            <div class="col-md-5">
                 <input asp-for="Title" class="form-control" />
                 <span asp-validation-for="Title" class="text-danger" />
             </div>
         </div>
         <div class="form-group">
             <label asp-for="MainActor" class="col-md-2 control-label"></label>
-            <div class="col-md-3">
+            <div class="col-md-5">
                 <input asp-for="MainActor" class="form-control" />
                 <span asp-validation-for="MainActor" class="text-danger" />
             </div>
         </div>
         <div class="form-group">
             <label asp-for="Genre" class="col-md-2 control-label"></label>
-            <div class="col-md-3">
+            <div class="col-md-5">
                 <input asp-for="Genre" class="form-control" />
                 <span asp-validation-for="Genre" class="text-danger" />
             </div>
         </div>
         <div class="form-group">
             <label asp-for="ReleaseDate" class="col-md-2 control-label"></label>
-            <div class="col-md-3">
+            <div class="col-md-5">
                 <input asp-for="ReleaseDate" class="form-control" />
                 <span asp-validation-for="ReleaseDate" class="text-danger" />
             </div>
         </div>
         <div class="form-group">
             <label asp-for="imageUrl" class="col-md-2 control-label"></label>
-            <div class="col-md-3">
+            <div class="col-md-5">
                 <input asp-for="imageUrl" class="form-control" />
                 <span asp-validation-for="imageUrl" class="text-danger" />
             </div>
         </div>
         <div class="form-group">
-            <div class="col-md-offset-2 col-md-3">
+            <div class="col-md-offset-2 col-md-5">
                 <input type="submit" value="Create" class="btn btn-success" />
             </div>
         </div>

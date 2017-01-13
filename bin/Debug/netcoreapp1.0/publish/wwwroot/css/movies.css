@@ -1,4 +1,8 @@
-﻿.carousel-inner > .item > img {
+﻿h1 {
+    color: white;
+}
+
+.carousel-inner > .item > img {
     margin: 0 auto;
 }
 
@@ -24,6 +28,7 @@
 
 .body-content {
     margin-top: 50px;
+    background-color: #1d242a;
 }
 
 .list-group-item .ol {
@@ -36,17 +41,17 @@
 }
 
 .table {
-    margin-top: 50px;
+    margin-top: 5%;
 }
 
 .btn-primary {
     float: left;
-    margin-left: 5px;
-    margin-top: 5px;
+    margin-left: 1%;
+    margin-top: 2%;
 }
 
 #homeBtn {
     float: right;
-    margin-right: 5px;
-    margin-top: 5px;
+    margin-right: 1%;
+    margin-top: 2%;
 }

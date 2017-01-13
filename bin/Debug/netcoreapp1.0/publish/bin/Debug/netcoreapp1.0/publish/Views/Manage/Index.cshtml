@@ -1,0 +1,39 @@
+﻿@model IndexViewModel
+@{
+    ViewData["Title"] = "Manage your account";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/movies.css">
+    <link href="~/css/movie-list.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--[if lte IE 8]><script src="wwwroot/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="~/css/main.css" />
+	<link rel="stylesheet" href="~/fonts/fontawesome-webfont.eot"></link>
+	<link rel="stylesheet" href="~/fonts/fontawesome-webfont.svg"></link>
+	<link rel="stylesheet" href="~/fonts/fontawesome-webfont.ttf"></link>
+	<link rel="stylesheet" href="~/fonts/fontawesome-webfont.woff"></link>
+	<link rel="stylesheet" href="~/fonts/fontawesome-webfont.woff2"></link>
+	<link rel="stylesheet" href="~/fonts/FontAwesome.otf"></link>
+</head>
+
+<h2>@ViewData["Title"].</h2>
+<p class="text-success">@ViewData["StatusMessage"]</p>
+
+<div>
+    <h4>Change your account settings</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>Password:</dt>
+        <dd>
+            @if (Model.HasPassword)
+            {
+                <a asp-controller="Manage" asp-action="ChangePassword" class="btn-bracketed">Change</a>
+            }
+            else
+            {
+                <a asp-controller="Manage" asp-action="SetPassword" class="btn-bracketed">Create</a>
+            }
+        </dd>
+</div>

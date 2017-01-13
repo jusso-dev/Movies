@@ -9,7 +9,17 @@
 }
 
 <head>
-    <link rel="stylesheet" href="~/css/movies.css">
+    <link href="~/css/movie-list.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--[if lte IE 8]><script src="wwwroot/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="~/css/main.css" />
+	<link rel="stylesheet" href="~/fonts/fontawesome-webfont.eot"></link>
+	<link rel="stylesheet" href="~/fonts/fontawesome-webfont.svg"></link>
+	<link rel="stylesheet" href="~/fonts/fontawesome-webfont.ttf"></link>
+	<link rel="stylesheet" href="~/fonts/fontawesome-webfont.woff"></link>
+	<link rel="stylesheet" href="~/fonts/fontawesome-webfont.woff2"></link>
+	<link rel="stylesheet" href="~/fonts/FontAwesome.otf"></link>
 </head>
 
 <h2>@ViewData["Title"]</h2>
@@ -35,12 +45,6 @@
                 </div>
                 <div class="form-group">
                     <div class="col-md-offset-2 col-md-5">
-                        <div class="checkbox">
-                            <label asp-for="RememberMe">
-                                <input asp-for="RememberMe" />
-                                @Html.DisplayNameFor(m => m.RememberMe)
-                            </label>
-                        </div>
                     </div>
                 </div>
                 <div class="form-group">
