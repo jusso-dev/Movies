@@ -1,0 +1,24 @@
+﻿@model IEnumerable<Movies.Data.Movie>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>
+        Movies
+    </title>
+    <link href="https://bootswatch.com/cyborg/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/movies.css" rel="stylesheet" />
+</head>
+<hr />
+<body>
+      <div class="row">
+@foreach (var item in Model) {
+            <div class="col-xs-6 col-md-4"><img src="@Html.DisplayFor(model => item.imageUrl)" class="image"/>
+                <h4>@Html.DisplayFor(model => item.Title)</h4>
+                    <p>@Html.DisplayFor(model => item.MainActor)</p>
+                    <p>@Html.DisplayFor(model => item.Genre)</p>
+            </div>
+}
+</body>
+</html>

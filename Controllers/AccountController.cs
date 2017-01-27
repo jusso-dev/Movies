@@ -325,10 +325,15 @@ namespace Movies.Controllers
         {
             try
             {
-                if (!ModelState.IsValid)
-            {
-                return View(model);
-            }
+
+                var adminUser = await _userManager.GetUserAsync(User);
+                var email = adminUser.Email;
+
+                if(email != userAdminEmail) 
+                {
+                    return RedirectToRoute("Home/Forbidden");
+                }
+            
             var user = await _userManager.FindByNameAsync(model.Email);
             if (user == null)
             {
@@ -341,7 +346,7 @@ namespace Movies.Controllers
                 return RedirectToAction(nameof(AccountController.ResetPasswordConfirmation), "Account");
             }
 
-            return View();
+            return View("success");
 
             }
             catch (Exception e)

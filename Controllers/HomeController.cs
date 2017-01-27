@@ -47,7 +47,6 @@ namespace Movies.Controllers
         {
             return View();
         }
-
         [AllowAnonymous]
         public IActionResult AdminOnly() 
         {
