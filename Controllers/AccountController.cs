@@ -7,10 +7,10 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.Extensions.Logging;
 using Movies.Models;
 using Movies.Models.AccountViewModels;
 using Movies.Services;
+using NLog;
 
 namespace Movies.Controllers
 {
@@ -21,21 +21,19 @@ namespace Movies.Controllers
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly IEmailSender _emailSender;
         private readonly ISmsSender _smsSender;
-        private readonly ILogger _logger;
+        private static Logger Log = LogManager.GetCurrentClassLogger();
         public static string userAdminEmail = "admin@admin.com";
 
         public AccountController(
             UserManager<ApplicationUser> userManager,
             SignInManager<ApplicationUser> signInManager,
             IEmailSender emailSender,
-            ISmsSender smsSender,
-            ILoggerFactory loggerFactory)
+            ISmsSender smsSender)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _emailSender = emailSender;
             _smsSender = smsSender;
-            _logger = loggerFactory.CreateLogger<AccountController>();
         }
 
         //
@@ -63,7 +61,6 @@ namespace Movies.Controllers
                 var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, lockoutOnFailure: false);
                 if (result.Succeeded)
                 {
-                    _logger.LogInformation(1, "User logged in.");
                     return RedirectToLocal(returnUrl);
                 }
                 if (result.RequiresTwoFactor)
@@ -72,7 +69,7 @@ namespace Movies.Controllers
                 }
                 if (result.IsLockedOut)
                 {
-                    _logger.LogWarning(2, "User account locked out.");
+                    Log.Log(LogLevel.Warn, "User Locked account");
                     return View("Lockout");
                 }
                 else
@@ -124,7 +121,7 @@ namespace Movies.Controllers
                     //await _emailSender.SendEmailAsync(model.Email, "Confirm your account",
                     //    $"Please confirm your account by clicking this link: <a href='{callbackUrl}'>link</a>");
                     await _signInManager.SignInAsync(user, isPersistent: false);
-                    _logger.LogInformation(3, "User created a new account with password.");
+                    Log.Log(LogLevel.Info, "User created a new account with password.");
                     return RedirectToLocal(returnUrl);
                 }
                 AddErrors(result);
@@ -141,7 +138,7 @@ namespace Movies.Controllers
         public async Task<IActionResult> LogOff()
         {
             await _signInManager.SignOutAsync();
-            _logger.LogInformation(4, "User logged out.");
+            Log.Log(LogLevel.Info,"User logged out.");
             return RedirectToAction(nameof(HomeController.Index), "Home");
         }
 
@@ -179,7 +176,7 @@ namespace Movies.Controllers
             var result = await _signInManager.ExternalLoginSignInAsync(info.LoginProvider, info.ProviderKey, isPersistent: false);
             if (result.Succeeded)
             {
-                _logger.LogInformation(5, "User logged in with {Name} provider.", info.LoginProvider);
+                Log.Log(LogLevel.Info,"User logged in with {Name} provider.", info.LoginProvider);
                 return RedirectToLocal(returnUrl);
             }
             if (result.RequiresTwoFactor)
@@ -223,7 +220,7 @@ namespace Movies.Controllers
                     if (result.Succeeded)
                     {
                         await _signInManager.SignInAsync(user, isPersistent: false);
-                        _logger.LogInformation(6, "User created an account using {Name} provider.", info.LoginProvider);
+                        Log.Log(LogLevel.Info, "User created an account using {Name} provider.", info.LoginProvider);
                         return RedirectToLocal(returnUrl);
                     }
                 }
@@ -305,7 +302,18 @@ namespace Movies.Controllers
         [AllowAnonymous]
         public IActionResult ResetPassword(string code = null)
         {
-            return code == null ? View("Error") : View();
+            try
+            {
+
+
+                return View();
+            }
+            catch (Exception e)
+            {
+               return RedirectToRoute("/Home/Error");
+               
+               Log.Log(LogLevel.Error, e.InnerException.ToString());
+            }
         }
 
         //
@@ -315,7 +323,9 @@ namespace Movies.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> ResetPassword(ResetPasswordViewModel model)
         {
-            if (!ModelState.IsValid)
+            try
+            {
+                if (!ModelState.IsValid)
             {
                 return View(model);
             }
@@ -330,8 +340,16 @@ namespace Movies.Controllers
             {
                 return RedirectToAction(nameof(AccountController.ResetPasswordConfirmation), "Account");
             }
-            AddErrors(result);
+
             return View();
+
+            }
+            catch (Exception e)
+            {
+                Log.Log(LogLevel.Error, e.InnerException.ToString());
+
+                return RedirectToRoute("Home/Error");
+            }
         }
 
         //
@@ -434,7 +452,7 @@ namespace Movies.Controllers
             }
             if (result.IsLockedOut)
             {
-                _logger.LogWarning(7, "User account locked out.");
+                Log.Log(LogLevel.Warn, "User account locked out.");
                 return View("Lockout");
             }
             else

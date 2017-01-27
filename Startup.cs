@@ -13,6 +13,7 @@ using Movies.Data;
 using Movies.Models;
 using Movies.Services;
 using NLog.Extensions.Logging;
+using NLog;
 
 namespace Movies
 {
@@ -68,7 +69,7 @@ namespace Movies
 
             loggerFactory.AddNLog();
 
-            env.ConfigureNLog("nlog.config");
+            loggerFactory.ConfigureNLog("nlog.config");
 
             if (env.IsDevelopment())
             {

@@ -67,7 +67,7 @@ namespace Movies.Controllers
             catch (Exception e)
             {
                 Log.LogException(LogLevel.Error, "There was an error getting Movies ", e.InnerException);
-                return Redirect("/Home/Error");
+                return NotFound();
             }
             
         }
