@@ -98,7 +98,6 @@ namespace Movies.Controllers
             }
             
             else return Redirect("/Home/AdminOnly");
-            
         }
 
         //

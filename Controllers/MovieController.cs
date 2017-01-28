@@ -87,7 +87,8 @@ namespace Movies.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("id,Genre,MainActor,ReleaseDate,Title,Worth,imageUrl")] Movie movie)
         {
-            if (ModelState.IsValid || !ModelState.IsValid)
+            // Model will never be "Vaild"
+            if (!ModelState.IsValid)
             {
                 try
                 {
@@ -98,6 +99,7 @@ namespace Movies.Controllers
                 catch (Exception e)
                 {
                     Log.LogException(LogLevel.Error, "There was an error adding Movie ", e.InnerException);
+                    return Redirect("Home/Error");
                 }
                 
                 
@@ -108,26 +110,35 @@ namespace Movies.Controllers
         // GET: Movie/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null)
+            try
             {
-                return NotFound();
-            }
+                if (id == null)
+                {
+                    return NotFound();
+                }
 
-            var movie = await _context.Movies.SingleOrDefaultAsync(m => m.id == id);
-            var user = await _userManager.GetUserAsync(User);
-            var email = user.Email;
+                var movie = await _context.Movies.SingleOrDefaultAsync(m => m.id == id);
+                var user = await _userManager.GetUserAsync(User);
+                var email = user.Email;
 
-            if (movie == null)
-            {
-                return NotFound();
-            }
+                if (movie == null)
+                {
+                    return NotFound();
+                }
 
-            if(email == userAdminEmail) 
-            {
-                return View(movie);
+                if(email == userAdminEmail) 
+                {
+                    return View(movie);
+                }
+            
+                else return Redirect("Home/Forbidden");
             }
             
-            else return Redirect("Home/Forbidden");
+            catch (Exception e)
+            {
+                Log.Log(LogLevel.Error, e.InnerException.ToString());
+                return Redirect("Home/Error");
+            }
         }
 
         // POST: Movie/Edit/5
@@ -180,6 +191,7 @@ namespace Movies.Controllers
             if (movie == null)
             {
                 return NotFound();
+                Log.Log(LogLevel.Warn, "Movie Not found");
             }
 
             if(email == userAdminEmail) 
