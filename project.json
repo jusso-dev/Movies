@@ -4,7 +4,10 @@
   "dependencies": {
     "Microsoft.NETCore.App": {
       "version": "1.0.1",
-      "type": "platform"
+      "type": "platform",
+      "dotnet-test-xunit": "2.2.0-preview2-build1029",
+    "xunit": "2.2.0-beta2-build3300",
+    "testRunner": "xunit"
     },
     "Microsoft.ApplicationInsights.AspNetCore": "1.0.0",
     "Microsoft.AspNetCore.Authentication.Cookies": "1.0.0",

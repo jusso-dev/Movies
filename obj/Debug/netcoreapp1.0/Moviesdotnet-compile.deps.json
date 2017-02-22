@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.0/",
-    "signature": "52a55d0642e39c91763012bbf5acd5815fa5352b"
+    "signature": "fb93cc9e537c2add7f8e2d29bcb24fba19828d58"
   },
   "compilationOptions": {
     "defines": [
@@ -25,7 +25,7 @@
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "1.0.0",
           "Microsoft.AspNetCore.Mvc": "1.0.1",
-          "NLog.Extensions.Logging": "1.0.0-rtm-beta1",
+          "NLog.Extensions.Logging": "1.0.0-rtm-beta3",
           "Microsoft.AspNetCore.Routing": "1.0.1",
           "Microsoft.AspNetCore.Server.IISIntegration": "1.0.0",
           "Microsoft.AspNetCore.Server.Kestrel": "1.0.1",
@@ -1433,7 +1433,7 @@
           "lib/netstandard1.0/Newtonsoft.Json.dll": {}
         }
       },
-      "NLog/5.0.0-beta04": {
+      "NLog/5.0.0-beta05": {
         "dependencies": {
           "Microsoft.Extensions.PlatformAbstractions": "1.0.0",
           "NETStandard.Library": "1.6.0",
@@ -1462,10 +1462,10 @@
           "lib/netstandard1.5/NLog.dll": {}
         }
       },
-      "NLog.Extensions.Logging/1.0.0-rtm-beta1": {
+      "NLog.Extensions.Logging/1.0.0-rtm-beta3": {
         "dependencies": {
           "Microsoft.Extensions.Logging.Abstractions": "1.0.0",
-          "NLog": "5.0.0-beta04",
+          "NLog": "5.0.0-beta05",
           "System.AppContext": "4.3.0"
         },
         "compile": {
@@ -3043,7 +3043,7 @@
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "1.0.0",
           "Microsoft.AspNetCore.Mvc": "1.0.1",
-          "NLog.Extensions.Logging": "1.0.0-rtm-beta1",
+          "NLog.Extensions.Logging": "1.0.0-rtm-beta3",
           "Microsoft.AspNetCore.Routing": "1.0.1",
           "Microsoft.AspNetCore.Server.IISIntegration": "1.0.0",
           "Microsoft.AspNetCore.Server.Kestrel": "1.0.1",
@@ -4448,7 +4448,7 @@
           "lib/netstandard1.0/Newtonsoft.Json.dll": {}
         }
       },
-      "NLog/5.0.0-beta04": {
+      "NLog/5.0.0-beta05": {
         "dependencies": {
           "Microsoft.Extensions.PlatformAbstractions": "1.0.0",
           "NETStandard.Library": "1.6.0",
@@ -4477,10 +4477,10 @@
           "lib/netstandard1.5/NLog.dll": {}
         }
       },
-      "NLog.Extensions.Logging/1.0.0-rtm-beta1": {
+      "NLog.Extensions.Logging/1.0.0-rtm-beta3": {
         "dependencies": {
           "Microsoft.Extensions.Logging.Abstractions": "1.0.0",
-          "NLog": "5.0.0-beta04",
+          "NLog": "5.0.0-beta05",
           "System.AppContext": "4.3.0"
         },
         "runtime": {
@@ -6474,15 +6474,15 @@
       "serviceable": true,
       "sha512": "sha512-U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw=="
     },
-    "NLog/5.0.0-beta04": {
+    "NLog/5.0.0-beta05": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-kba9JT0qE8sLbBvTa6zxxh4sNLGdgWhQLuzFid/5vpakLuASIc2yI8b7yo+YTB5ZWM8vQDqIUQcFfuCgXYY99Q=="
+      "sha512": "sha512-w8o0ZjF/8qM8eOrm8PtfE0AJv+huOt3T3C7EjUfao1whmqRTTAcTDCELwA3O6WG6ErYzqQnciUeRUEpM/OvWMA=="
     },
-    "NLog.Extensions.Logging/1.0.0-rtm-beta1": {
+    "NLog.Extensions.Logging/1.0.0-rtm-beta3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-qDOFhDKUtwoxAJBY2t1fVbxiKRhviA1vkW2Q6jMAWZHBN9KKRUBZQEOsfTLO6Er3CrgDeBXcn8YnSpPsfggW/w=="
+      "sha512": "sha512-ALWpLJQZ/3hnLScAkWZ7HDkgEgT3aPi3TbqkihIxBAlMn5ESlxYA4KxvrND8/qXgq83at45FmjLxo1eMfidQIQ=="
     },
     "Remotion.Linq/2.1.1": {
       "type": "package",

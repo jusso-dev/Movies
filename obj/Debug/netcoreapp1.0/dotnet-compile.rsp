@@ -130,8 +130,8 @@
 --reference:/Users/Jezza/.nuget/packages/Microsoft.Win32.Primitives/4.0.1/ref/netstandard1.3/Microsoft.Win32.Primitives.dll
 --reference:/Users/Jezza/.nuget/packages/Microsoft.Win32.Registry/4.0.0/ref/netstandard1.3/Microsoft.Win32.Registry.dll
 --reference:/Users/Jezza/.nuget/packages/Newtonsoft.Json/9.0.1/lib/netstandard1.0/Newtonsoft.Json.dll
---reference:/Users/Jezza/.nuget/packages/NLog/5.0.0-beta04/lib/netstandard1.5/NLog.dll
---reference:/Users/Jezza/.nuget/packages/NLog.Extensions.Logging/1.0.0-rtm-beta1/lib/netstandard1.3/NLog.Extensions.Logging.dll
+--reference:/Users/Jezza/.nuget/packages/NLog/5.0.0-beta05/lib/netstandard1.5/NLog.dll
+--reference:/Users/Jezza/.nuget/packages/NLog.Extensions.Logging/1.0.0-rtm-beta3/lib/netstandard1.3/NLog.Extensions.Logging.dll
 --reference:/Users/Jezza/.nuget/packages/NuGet.Common/3.5.0-beta2-1484/lib/netstandard1.3/NuGet.Common.dll
 --reference:/Users/Jezza/.nuget/packages/NuGet.Configuration/3.5.0-beta2-1484/lib/netstandard1.3/NuGet.Configuration.dll
 --reference:/Users/Jezza/.nuget/packages/NuGet.DependencyResolver.Core/3.5.0-beta2-1484/lib/netstandard1.3/NuGet.DependencyResolver.Core.dll

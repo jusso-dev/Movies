@@ -309,9 +309,8 @@ namespace Movies.Controllers
             }
             catch (Exception e)
             {
+                Log.Log(LogLevel.Error, e.InnerException.ToString());
                return RedirectToRoute("/Home/Error");
-               
-               Log.Log(LogLevel.Error, e.InnerException.ToString());
             }
         }
 

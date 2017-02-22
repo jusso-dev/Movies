@@ -1,0 +1,734 @@
+2017-02-22 22:26:12.5847|0|Microsoft.Extensions.DependencyInjection.DataProtectionServices|INFO|User profile is available. Using '/Users/Jezza/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest. 
+2017-02-22 22:26:12.7001|3|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-02-22 22:26:12.7705|4|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-02-22 22:26:17.8409|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JAC7" started. 
+2017-02-22 22:26:17.9601|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/   
+2017-02-22 22:26:17.9822|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path / does not match a supported file type 
+2017-02-22 22:26:18.1841|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-02-22 22:26:18.2782|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action Movies.Controllers.HomeController.Index (Movies) 
+2017-02-22 22:26:18.4417|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method Movies.Controllers.HomeController.Index (Movies) with arguments () - ModelState is Valid 
+2017-02-22 22:26:18.4471|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method Movies.Controllers.HomeController.Index (Movies), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-02-22 22:26:18.5642|1|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view 'Index' in controller 'Home'. 
+2017-02-22 22:26:18.6089|1|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Index.cshtml' started. 
+2017-02-22 22:26:19.1699|2|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Index.cshtml' completed in 558.6907ms. 
+2017-02-22 22:26:19.1770|1|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' started. 
+2017-02-22 22:26:20.2905|2|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' completed in 1113.2368ms. 
+2017-02-22 22:26:20.2956|1|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/_ViewStart.cshtml' started. 
+2017-02-22 22:26:20.2997|2|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/_ViewStart.cshtml' completed in 3.8571ms. 
+2017-02-22 22:26:20.2997|1|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/_ViewStart.cshtml' started. 
+2017-02-22 22:26:20.3362|2|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/_ViewStart.cshtml' completed in 36.2583ms. 
+2017-02-22 22:26:20.3434|2|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Index' was found. 
+2017-02-22 22:26:20.3449|1|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Home/Index.cshtml. 
+2017-02-22 22:26:20.4860|1|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view '_Layout' in controller 'Home'. 
+2017-02-22 22:26:20.4860|1|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Shared/_Layout.cshtml' started. 
+2017-02-22 22:26:20.5254|2|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Shared/_Layout.cshtml' completed in 38.2497ms. 
+2017-02-22 22:26:20.5257|1|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Shared/_Layout.cshtml' started. 
+2017-02-22 22:26:20.6462|2|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Shared/_Layout.cshtml' completed in 120.2151ms. 
+2017-02-22 22:26:20.8387|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action Movies.Controllers.HomeController.Index (Movies) in 2560.0807ms 
+2017-02-22 22:26:20.8575|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 2927.1199ms 200 text/html; charset=utf-8 
+2017-02-22 22:26:20.8612|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JAC8" started. 
+2017-02-22 22:26:20.8612|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JAC9" started. 
+2017-02-22 22:26:20.8619|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JACA" started. 
+2017-02-22 22:26:20.8629|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/css/main.css   
+2017-02-22 22:26:20.8663|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JACB" started. 
+2017-02-22 22:26:20.8663|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JACC" started. 
+2017-02-22 22:26:20.8670|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/fonts/fontawesome-webfont.woff   
+2017-02-22 22:26:20.8670|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/fonts/fontawesome-webfont.woff2   
+2017-02-22 22:26:20.8706|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JAC7" completed keep alive response. 
+2017-02-22 22:26:20.8764|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/fonts/FontAwesome.otf   
+2017-02-22 22:26:20.8928|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /fonts/fontawesome-webfont.woff2 was not modified 
+2017-02-22 22:26:20.8928|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /fonts/fontawesome-webfont.woff was not modified 
+2017-02-22 22:26:20.8941|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /fonts/FontAwesome.otf was not modified 
+2017-02-22 22:26:20.8986|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /css/main.css was not modified 
+2017-02-22 22:26:20.9039|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /fonts/fontawesome-webfont.woff2 
+2017-02-22 22:26:20.9039|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /css/main.css 
+2017-02-22 22:26:20.9039|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /fonts/FontAwesome.otf 
+2017-02-22 22:26:20.9049|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 42.8783ms 304 text/css 
+2017-02-22 22:26:20.9058|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 29.5033ms 304 font/otf 
+2017-02-22 22:26:20.9039|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /fonts/fontawesome-webfont.woff 
+2017-02-22 22:26:20.9070|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 40.1325ms 304 application/font-woff 
+2017-02-22 22:26:20.9049|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 37.4361ms 304 application/font-woff2 
+2017-02-22 22:26:20.9110|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JAC9" completed keep alive response. 
+2017-02-22 22:26:20.9110|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JAC8" completed keep alive response. 
+2017-02-22 22:26:20.9119|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JAC7" completed keep alive response. 
+2017-02-22 22:26:20.9136|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/fonts/fontawesome-webfont.svg   
+2017-02-22 22:26:20.9143|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /fonts/fontawesome-webfont.svg was not modified 
+2017-02-22 22:26:20.9143|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /fonts/fontawesome-webfont.svg 
+2017-02-22 22:26:20.9149|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1.2999ms 304 image/svg+xml 
+2017-02-22 22:26:20.9149|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/fonts/fontawesome-webfont.ttf   
+2017-02-22 22:26:20.9149|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JACB" completed keep alive response. 
+2017-02-22 22:26:20.9158|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /fonts/fontawesome-webfont.ttf was not modified 
+2017-02-22 22:26:20.9158|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /fonts/fontawesome-webfont.ttf 
+2017-02-22 22:26:20.9172|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1.8296ms 304 application/x-font-ttf 
+2017-02-22 22:26:20.9172|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JACC" completed keep alive response. 
+2017-02-22 22:26:20.9110|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JACA" completed keep alive response. 
+2017-02-22 22:26:20.9416|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/fonts/fontawesome-webfont.eot   
+2017-02-22 22:26:20.9418|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/js/jquery.scrollex.min.js   
+2017-02-22 22:26:20.9418|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /fonts/fontawesome-webfont.eot was not modified 
+2017-02-22 22:26:20.9440|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /fonts/fontawesome-webfont.eot 
+2017-02-22 22:26:20.9440|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 3.0544ms 304 application/vnd.ms-fontobject 
+2017-02-22 22:26:20.9448|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JACA" completed keep alive response. 
+2017-02-22 22:26:20.9486|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/js/site.js   
+2017-02-22 22:26:20.9486|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /js/site.js was not modified 
+2017-02-22 22:26:20.9502|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /js/site.js 
+2017-02-22 22:26:20.9511|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 2.4564ms 304 application/javascript 
+2017-02-22 22:26:20.9511|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JACB" completed keep alive response. 
+2017-02-22 22:26:20.9516|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/js/site.min.js   
+2017-02-22 22:26:20.9531|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /js/site.min.js was not modified 
+2017-02-22 22:26:20.9531|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /js/site.min.js 
+2017-02-22 22:26:20.9428|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /js/jquery.scrollex.min.js was not modified 
+2017-02-22 22:26:20.9539|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /js/jquery.scrollex.min.js 
+2017-02-22 22:26:20.9539|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 12.5573ms 304 application/javascript 
+2017-02-22 22:26:20.9539|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JAC9" completed keep alive response. 
+2017-02-22 22:26:20.9428|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/js/jquery.scrolly.min.js   
+2017-02-22 22:26:20.9552|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /js/jquery.scrolly.min.js was not modified 
+2017-02-22 22:26:20.9552|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /js/jquery.scrolly.min.js 
+2017-02-22 22:26:20.9559|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 13.0051ms 304 application/javascript 
+2017-02-22 22:26:20.9559|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JAC8" completed keep alive response. 
+2017-02-22 22:26:20.9539|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 2.0763ms 304 application/javascript 
+2017-02-22 22:26:20.9590|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JACC" completed keep alive response. 
+2017-02-22 22:26:20.9440|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/js/main.js   
+2017-02-22 22:26:20.9598|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /js/main.js was not modified 
+2017-02-22 22:26:20.9598|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /js/main.js 
+2017-02-22 22:26:20.9598|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 15.8698ms 304 application/javascript 
+2017-02-22 22:26:20.9607|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JAC7" completed keep alive response. 
+2017-02-22 22:26:20.9643|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/js/skel.min.js   
+2017-02-22 22:26:20.9649|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /js/skel.min.js was not modified 
+2017-02-22 22:26:20.9649|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /js/skel.min.js 
+2017-02-22 22:26:20.9649|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1.0591ms 304 application/javascript 
+2017-02-22 22:26:20.9649|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JACA" completed keep alive response. 
+2017-02-22 22:26:20.9676|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/js/site.min.js?v=4YtIaePNzexGu4QQcABZ3hmCTZ5PpZ6UoIpVvTVV2ww   
+2017-02-22 22:26:20.9698|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/js/util.js   
+2017-02-22 22:26:20.9713|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /js/site.min.js was not modified 
+2017-02-22 22:26:20.9713|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /js/util.js was not modified 
+2017-02-22 22:26:20.9718|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /js/util.js 
+2017-02-22 22:26:20.9718|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /js/site.min.js 
+2017-02-22 22:26:20.9718|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 5.3331ms 304 application/javascript 
+2017-02-22 22:26:20.9718|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 2.2996ms 304 application/javascript 
+2017-02-22 22:26:20.9726|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JACB" completed keep alive response. 
+2017-02-22 22:26:20.9718|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JAC9" completed keep alive response. 
+2017-02-22 22:26:20.9852|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/css/font-awesome.min.css   
+2017-02-22 22:26:20.9860|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /css/font-awesome.min.css was not modified 
+2017-02-22 22:26:20.9860|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /css/font-awesome.min.css 
+2017-02-22 22:26:20.9860|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1.3734ms 304 text/css 
+2017-02-22 22:26:20.9867|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JACB" completed keep alive response. 
+2017-02-22 22:26:21.0499|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/images/banner.jpg   
+2017-02-22 22:26:21.0508|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/images/banner.jpg'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/images/banner.jpg' 
+2017-02-22 22:26:21.0673|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/css/images/bars.svg   
+2017-02-22 22:26:21.0678|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/css/images/bars.svg'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/css/images/bars.svg' 
+2017-02-22 22:26:21.0752|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 8.0704ms 200 image/svg+xml 
+2017-02-22 22:26:21.0752|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JAC9" completed keep alive response. 
+2017-02-22 22:26:21.1020|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/css/images/close.svg   
+2017-02-22 22:26:21.1020|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/css/images/close.svg'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/css/images/close.svg' 
+2017-02-22 22:26:21.1033|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1.2327ms 200 image/svg+xml 
+2017-02-22 22:26:21.1033|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JAC9" completed keep alive response. 
+2017-02-22 22:26:21.1400|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 89.9918ms 200 image/jpeg 
+2017-02-22 22:26:21.1400|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JACB" completed keep alive response. 
+2017-02-22 22:26:21.1682|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   
+2017-02-22 22:26:21.1690|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/favicon.ico'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/favicon.ico' 
+2017-02-22 22:26:21.1730|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 4.7481ms 200 image/x-icon 
+2017-02-22 22:26:21.1737|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JACB" completed keep alive response. 
+2017-02-22 22:26:40.7772|5|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting shutdown 
+2017-02-22 22:26:40.7930|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JAC8" disconnecting. 
+2017-02-22 22:26:40.7930|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JAC9" disconnecting. 
+2017-02-22 22:26:40.7938|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JACA" disconnecting. 
+2017-02-22 22:26:40.7948|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JAC8" sending FIN. 
+2017-02-22 22:26:40.7948|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JAC7" disconnecting. 
+2017-02-22 22:26:40.7957|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JACC" disconnecting. 
+2017-02-22 22:26:40.7948|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JACB" disconnecting. 
+2017-02-22 22:26:40.7957|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JAC7" sending FIN. 
+2017-02-22 22:26:40.7957|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JACC" sending FIN. 
+2017-02-22 22:26:40.7967|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JACB" sending FIN. 
+2017-02-22 22:26:40.7957|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JAC9" sending FIN. 
+2017-02-22 22:26:40.7967|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JACA" sending FIN. 
+2017-02-22 22:26:40.8006|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JAC7" sent FIN with status "0". 
+2017-02-22 22:26:40.8006|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JAC8" sent FIN with status "0". 
+2017-02-22 22:26:40.8047|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JAC7" stopped. 
+2017-02-22 22:26:40.8047|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JAC8" stopped. 
+2017-02-22 22:26:40.8047|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JACC" sent FIN with status "0". 
+2017-02-22 22:26:40.8057|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JACC" stopped. 
+2017-02-22 22:26:40.8057|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JACB" sent FIN with status "0". 
+2017-02-22 22:26:40.8047|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JAC9" sent FIN with status "0". 
+2017-02-22 22:26:40.8057|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JAC9" stopped. 
+2017-02-22 22:26:40.8057|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JACB" stopped. 
+2017-02-22 22:26:40.8087|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JACA" sent FIN with status "0". 
+2017-02-22 22:26:40.8097|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2MF8JACA" stopped. 
+2017-02-22 22:31:12.8173|0|Microsoft.Extensions.DependencyInjection.DataProtectionServices|INFO|User profile is available. Using '/Users/Jezza/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest. 
+2017-02-22 22:31:12.9411|3|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-02-22 22:31:13.0064|4|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-02-22 22:31:20.0317|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDJ" started. 
+2017-02-22 22:31:20.1289|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/   
+2017-02-22 22:31:20.1499|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path / does not match a supported file type 
+2017-02-22 22:31:20.3454|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-02-22 22:31:20.4538|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action Movies.Controllers.HomeController.Index (Movies) 
+2017-02-22 22:31:20.6161|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method Movies.Controllers.HomeController.Index (Movies) with arguments () - ModelState is Valid 
+2017-02-22 22:31:20.6216|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method Movies.Controllers.HomeController.Index (Movies), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-02-22 22:31:20.7423|1|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view 'Index' in controller 'Home'. 
+2017-02-22 22:31:20.7883|1|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Index.cshtml' started. 
+2017-02-22 22:31:21.3750|2|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Index.cshtml' completed in 584.8495ms. 
+2017-02-22 22:31:21.3836|1|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' started. 
+2017-02-22 22:31:22.4901|2|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' completed in 1106.3147ms. 
+2017-02-22 22:31:22.4954|1|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/_ViewStart.cshtml' started. 
+2017-02-22 22:31:22.4993|2|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/_ViewStart.cshtml' completed in 3.7075ms. 
+2017-02-22 22:31:22.4993|1|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/_ViewStart.cshtml' started. 
+2017-02-22 22:31:22.5377|2|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/_ViewStart.cshtml' completed in 37.9073ms. 
+2017-02-22 22:31:22.5450|2|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Index' was found. 
+2017-02-22 22:31:22.5466|1|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Home/Index.cshtml. 
+2017-02-22 22:31:22.6928|1|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view '_Layout' in controller 'Home'. 
+2017-02-22 22:31:22.6932|1|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Shared/_Layout.cshtml' started. 
+2017-02-22 22:31:22.7351|2|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Shared/_Layout.cshtml' completed in 41.159ms. 
+2017-02-22 22:31:22.7351|1|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Shared/_Layout.cshtml' started. 
+2017-02-22 22:31:22.8511|2|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Shared/_Layout.cshtml' completed in 114.7254ms. 
+2017-02-22 22:31:23.0359|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action Movies.Controllers.HomeController.Index (Movies) in 2581.8747ms 
+2017-02-22 22:31:23.0419|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDK" started. 
+2017-02-22 22:31:23.0600|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/js/jquery.min.js   
+2017-02-22 22:31:23.0690|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 2952.4026ms 200 text/html; charset=utf-8 
+2017-02-22 22:31:23.0852|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDJ" completed keep alive response. 
+2017-02-22 22:31:23.0912|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/js/jquery.min.js'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/js/jquery.min.js' 
+2017-02-22 22:31:23.1562|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 96.2668ms 200 application/javascript 
+2017-02-22 22:31:23.1562|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDK" completed keep alive response. 
+2017-02-22 22:31:57.0101|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/   
+2017-02-22 22:31:57.0101|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path / does not match a supported file type 
+2017-02-22 22:31:57.0116|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-02-22 22:31:57.0126|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action Movies.Controllers.HomeController.Index (Movies) 
+2017-02-22 22:31:57.0141|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method Movies.Controllers.HomeController.Index (Movies) with arguments () - ModelState is Valid 
+2017-02-22 22:31:57.0141|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method Movies.Controllers.HomeController.Index (Movies), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-02-22 22:31:57.0149|1|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view 'Index' in controller 'Home'. 
+2017-02-22 22:31:57.0155|1|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Index.cshtml' started. 
+2017-02-22 22:31:57.0283|2|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Index.cshtml' completed in 12.4707ms. 
+2017-02-22 22:31:57.0286|1|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' started. 
+2017-02-22 22:31:57.0851|2|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' completed in 56.2127ms. 
+2017-02-22 22:31:57.0860|2|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Index' was found. 
+2017-02-22 22:31:57.0860|1|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Home/Index.cshtml. 
+2017-02-22 22:31:57.1141|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view '_Layout' in controller 'Home'. 
+2017-02-22 22:31:57.1152|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action Movies.Controllers.HomeController.Index (Movies) in 102.0698ms 
+2017-02-22 22:31:57.1156|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 105.6641ms 200 text/html; charset=utf-8 
+2017-02-22 22:31:57.1156|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDK" completed keep alive response. 
+2017-02-22 22:31:57.1361|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDL" started. 
+2017-02-22 22:31:57.1361|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDM" started. 
+2017-02-22 22:31:57.1374|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDN" started. 
+2017-02-22 22:31:57.1379|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDO" started. 
+2017-02-22 22:31:57.1379|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/css/main.css   
+2017-02-22 22:31:57.1389|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/css/main.css'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/css/main.css' 
+2017-02-22 22:31:57.1389|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/fonts/fontawesome-webfont.eot   
+2017-02-22 22:31:57.1401|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/fonts/fontawesome-webfont.eot'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/fonts/fontawesome-webfont.eot' 
+2017-02-22 22:31:57.1420|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 3.6953ms 200 text/css 
+2017-02-22 22:31:57.1420|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDK" completed keep alive response. 
+2017-02-22 22:31:57.1571|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 3.0019ms 200 application/vnd.ms-fontobject 
+2017-02-22 22:31:57.1571|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDJ" completed keep alive response. 
+2017-02-22 22:31:57.1578|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/js/jquery.min.js   
+2017-02-22 22:31:57.1578|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/js/jquery.min.js'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/js/jquery.min.js' 
+2017-02-22 22:31:57.1588|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/fonts/fontawesome-webfont.woff   
+2017-02-22 22:31:57.1595|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/fonts/fontawesome-webfont.woff'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/fonts/fontawesome-webfont.woff' 
+2017-02-22 22:31:57.1608|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/fonts/FontAwesome.otf   
+2017-02-22 22:31:57.1663|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/fonts/FontAwesome.otf'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/fonts/FontAwesome.otf' 
+2017-02-22 22:31:57.1668|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/fonts/fontawesome-webfont.ttf   
+2017-02-22 22:31:57.1668|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 9.5421ms 200 application/javascript 
+2017-02-22 22:31:57.1668|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDJ" completed keep alive response. 
+2017-02-22 22:31:57.1668|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/fonts/fontawesome-webfont.ttf'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/fonts/fontawesome-webfont.ttf' 
+2017-02-22 22:31:57.1685|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 9.3876ms 200 application/font-woff 
+2017-02-22 22:31:57.1685|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDN" completed keep alive response. 
+2017-02-22 22:31:57.1685|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/fonts/fontawesome-webfont.svg   
+2017-02-22 22:31:57.1685|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 8.5967ms 200 font/otf 
+2017-02-22 22:31:57.1696|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDK" completed keep alive response. 
+2017-02-22 22:31:57.1696|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/fonts/fontawesome-webfont.svg'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/fonts/fontawesome-webfont.svg' 
+2017-02-22 22:31:57.1709|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 26.0574ms 200 application/x-font-ttf 
+2017-02-22 22:31:57.1709|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDM" completed keep alive response. 
+2017-02-22 22:31:57.1724|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/js/jquery.scrollex.min.js   
+2017-02-22 22:31:57.1668|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/fonts/fontawesome-webfont.woff2   
+2017-02-22 22:31:57.1922|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/js/skel.min.js   
+2017-02-22 22:31:57.1928|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/js/skel.min.js'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/js/skel.min.js' 
+2017-02-22 22:31:57.1937|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 20.6625ms 200 application/javascript 
+2017-02-22 22:31:57.1937|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDN" completed keep alive response. 
+2017-02-22 22:31:57.1937|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/js/jquery.scrollex.min.js'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/js/jquery.scrollex.min.js' 
+2017-02-22 22:31:57.1947|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/js/main.js   
+2017-02-22 22:31:57.1947|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 21.025ms 200 image/svg+xml 
+2017-02-22 22:31:57.1947|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDL" completed keep alive response. 
+2017-02-22 22:31:57.1993|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/js/main.js'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/js/main.js' 
+2017-02-22 22:31:57.2000|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/fonts/fontawesome-webfont.woff2'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/fonts/fontawesome-webfont.woff2' 
+2017-02-22 22:31:57.2000|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 5.5798ms 200 application/javascript 
+2017-02-22 22:31:57.2006|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDK" completed keep alive response. 
+2017-02-22 22:31:57.2006|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/js/site.js   
+2017-02-22 22:31:57.2006|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/js/util.js   
+2017-02-22 22:31:57.2006|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/js/site.js'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/js/site.js' 
+2017-02-22 22:31:57.2083|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/js/util.js'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/js/util.js' 
+2017-02-22 22:31:57.2091|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 7.9635ms 200 application/javascript 
+2017-02-22 22:31:57.2095|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDN" completed keep alive response. 
+2017-02-22 22:31:57.2095|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 64.4081ms 200 application/font-woff2 
+2017-02-22 22:31:57.2095|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDO" completed keep alive response. 
+2017-02-22 22:31:57.2108|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/js/jquery.scrolly.min.js   
+2017-02-22 22:31:57.2108|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/js/jquery.scrolly.min.js'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/js/jquery.scrolly.min.js' 
+2017-02-22 22:31:57.2120|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1.196ms 200 application/javascript 
+2017-02-22 22:31:57.2120|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDK" completed keep alive response. 
+2017-02-22 22:31:57.2131|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1.282ms 200 application/javascript 
+2017-02-22 22:31:57.2131|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDM" completed keep alive response. 
+2017-02-22 22:31:57.2168|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 22.9254ms 200 application/javascript 
+2017-02-22 22:31:57.2168|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDJ" completed keep alive response. 
+2017-02-22 22:31:57.2168|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/js/site.min.js   
+2017-02-22 22:31:57.2168|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/js/site.min.js?v=4YtIaePNzexGu4QQcABZ3hmCTZ5PpZ6UoIpVvTVV2ww   
+2017-02-22 22:31:57.2177|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/js/site.min.js'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/js/site.min.js' 
+2017-02-22 22:31:57.2177|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/js/site.min.js'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/js/site.min.js' 
+2017-02-22 22:31:57.2221|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 22.7152ms 200 application/javascript 
+2017-02-22 22:31:57.2225|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDL" completed keep alive response. 
+2017-02-22 22:31:57.2293|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1.0679ms 200 application/javascript 
+2017-02-22 22:31:57.2297|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDJ" completed keep alive response. 
+2017-02-22 22:31:57.3002|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/css/font-awesome.min.css   
+2017-02-22 22:31:57.3008|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/css/font-awesome.min.css'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/css/font-awesome.min.css' 
+2017-02-22 22:31:57.3016|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1.4709ms 200 text/css 
+2017-02-22 22:31:57.3016|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDJ" completed keep alive response. 
+2017-02-22 22:31:57.8733|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/images/banner.jpg   
+2017-02-22 22:31:57.8738|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/images/banner.jpg'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/images/banner.jpg' 
+2017-02-22 22:31:57.8762|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/css/images/bars.svg   
+2017-02-22 22:31:57.8767|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/css/images/bars.svg'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/css/images/bars.svg' 
+2017-02-22 22:31:57.8767|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1.0176ms 200 image/svg+xml 
+2017-02-22 22:31:57.8776|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDL" completed keep alive response. 
+2017-02-22 22:31:57.9069|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/css/images/close.svg   
+2017-02-22 22:31:57.9075|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/css/images/close.svg'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/css/images/close.svg' 
+2017-02-22 22:31:57.9075|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1.4999ms 200 image/svg+xml 
+2017-02-22 22:31:57.9085|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDL" completed keep alive response. 
+2017-02-22 22:31:57.9331|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 59.8391ms 200 image/jpeg 
+2017-02-22 22:31:57.9331|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDJ" completed keep alive response. 
+2017-02-22 22:32:42.3002|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/   
+2017-02-22 22:32:42.3002|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path / does not match a supported file type 
+2017-02-22 22:32:42.3016|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-02-22 22:32:42.3018|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action Movies.Controllers.HomeController.Index (Movies) 
+2017-02-22 22:32:42.3018|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method Movies.Controllers.HomeController.Index (Movies) with arguments () - ModelState is Valid 
+2017-02-22 22:32:42.3018|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method Movies.Controllers.HomeController.Index (Movies), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-02-22 22:32:42.3018|1|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view 'Index' in controller 'Home'. 
+2017-02-22 22:32:42.3018|1|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Index.cshtml' started. 
+2017-02-22 22:32:42.3104|2|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Index.cshtml' completed in 7.7901ms. 
+2017-02-22 22:32:42.3104|1|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' started. 
+2017-02-22 22:32:42.3630|2|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' completed in 52.2029ms. 
+2017-02-22 22:32:42.3638|2|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Index' was found. 
+2017-02-22 22:32:42.3638|1|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Home/Index.cshtml. 
+2017-02-22 22:32:42.3841|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view '_Layout' in controller 'Home'. 
+2017-02-22 22:32:42.3849|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action Movies.Controllers.HomeController.Index (Movies) in 82.8781ms 
+2017-02-22 22:32:42.3849|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 85.0506ms 200 text/html; charset=utf-8 
+2017-02-22 22:32:42.3849|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDJ" completed keep alive response. 
+2017-02-22 22:32:42.4038|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/fonts/fontawesome-webfont.eot   
+2017-02-22 22:32:42.4038|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/fonts/fontawesome-webfont.ttf   
+2017-02-22 22:32:42.4038|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/fonts/fontawesome-webfont.svg   
+2017-02-22 22:32:42.4038|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/fonts/fontawesome-webfont.eot'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/fonts/fontawesome-webfont.eot' 
+2017-02-22 22:32:42.4152|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/fonts/fontawesome-webfont.svg'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/fonts/fontawesome-webfont.svg' 
+2017-02-22 22:32:42.4160|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 12.2134ms 200 application/vnd.ms-fontobject 
+2017-02-22 22:32:42.4160|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDL" completed keep alive response. 
+2017-02-22 22:32:42.4048|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/fonts/fontawesome-webfont.ttf'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/fonts/fontawesome-webfont.ttf' 
+2017-02-22 22:32:42.4197|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/fonts/fontawesome-webfont.woff   
+2017-02-22 22:32:42.4197|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/fonts/fontawesome-webfont.woff'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/fonts/fontawesome-webfont.woff' 
+2017-02-22 22:32:42.4214|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/css/main.css   
+2017-02-22 22:32:42.4397|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/css/main.css'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/css/main.css' 
+2017-02-22 22:32:42.4402|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/fonts/fontawesome-webfont.woff2   
+2017-02-22 22:32:42.4408|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 32.4217ms 200 text/css 
+2017-02-22 22:32:42.4408|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDJ" completed keep alive response. 
+2017-02-22 22:32:42.4408|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/fonts/fontawesome-webfont.woff2'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/fonts/fontawesome-webfont.woff2' 
+2017-02-22 22:32:42.4408|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 36.6223ms 200 image/svg+xml 
+2017-02-22 22:32:42.4408|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDK" completed keep alive response. 
+2017-02-22 22:32:42.4420|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 33.527ms 200 application/font-woff2 
+2017-02-22 22:32:42.4420|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDM" completed keep alive response. 
+2017-02-22 22:32:42.4427|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/fonts/FontAwesome.otf   
+2017-02-22 22:32:42.4427|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 17.3641ms 200 application/font-woff 
+2017-02-22 22:32:42.4427|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/fonts/FontAwesome.otf'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/fonts/FontAwesome.otf' 
+2017-02-22 22:32:42.4427|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDO" completed keep alive response. 
+2017-02-22 22:32:42.4441|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/js/jquery.min.js   
+2017-02-22 22:32:42.4441|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/js/jquery.min.js'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/js/jquery.min.js' 
+2017-02-22 22:32:42.4452|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 22.6548ms 200 font/otf 
+2017-02-22 22:32:42.4452|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDL" completed keep alive response. 
+2017-02-22 22:32:42.4463|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 2.2385ms 200 application/javascript 
+2017-02-22 22:32:42.4469|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDO" completed keep alive response. 
+2017-02-22 22:32:42.4509|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 21.0718ms 200 application/x-font-ttf 
+2017-02-22 22:32:42.4509|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDN" completed keep alive response. 
+2017-02-22 22:32:42.4509|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/js/jquery.scrollex.min.js   
+2017-02-22 22:32:42.4520|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/js/jquery.scrollex.min.js'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/js/jquery.scrollex.min.js' 
+2017-02-22 22:32:42.4520|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 0.9775ms 200 application/javascript 
+2017-02-22 22:32:42.4520|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/js/skel.min.js   
+2017-02-22 22:32:42.4529|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDN" completed keep alive response. 
+2017-02-22 22:32:42.4529|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/js/skel.min.js'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/js/skel.min.js' 
+2017-02-22 22:32:42.4537|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1.051ms 200 application/javascript 
+2017-02-22 22:32:42.4537|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDK" completed keep alive response. 
+2017-02-22 22:32:42.4609|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/js/site.js   
+2017-02-22 22:32:42.4609|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/js/site.js'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/js/site.js' 
+2017-02-22 22:32:42.4620|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1.0908ms 200 application/javascript 
+2017-02-22 22:32:42.4620|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDJ" completed keep alive response. 
+2017-02-22 22:32:42.4653|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/js/site.min.js   
+2017-02-22 22:32:42.4659|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/js/site.min.js'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/js/site.min.js' 
+2017-02-22 22:32:42.4659|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1.2534ms 200 application/javascript 
+2017-02-22 22:32:42.4669|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDM" completed keep alive response. 
+2017-02-22 22:32:42.4687|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/js/util.js   
+2017-02-22 22:32:42.4692|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/js/util.js'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/js/util.js' 
+2017-02-22 22:32:42.4698|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1.1225ms 200 application/javascript 
+2017-02-22 22:32:42.4698|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDL" completed keep alive response. 
+2017-02-22 22:32:42.4708|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/js/site.min.js?v=4YtIaePNzexGu4QQcABZ3hmCTZ5PpZ6UoIpVvTVV2ww   
+2017-02-22 22:32:42.4708|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/js/site.min.js'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/js/site.min.js' 
+2017-02-22 22:32:42.4708|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/js/jquery.scrolly.min.js   
+2017-02-22 22:32:42.4719|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1.1584ms 200 application/javascript 
+2017-02-22 22:32:42.4719|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDN" completed keep alive response. 
+2017-02-22 22:32:42.4719|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/js/jquery.scrolly.min.js'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/js/jquery.scrolly.min.js' 
+2017-02-22 22:32:42.4856|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1.5377ms 200 application/javascript 
+2017-02-22 22:32:42.4859|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDK" completed keep alive response. 
+2017-02-22 22:32:42.4946|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/js/main.js   
+2017-02-22 22:32:42.4952|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/js/main.js'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/js/main.js' 
+2017-02-22 22:32:42.4958|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 22.3914ms 200 application/javascript 
+2017-02-22 22:32:42.4958|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDO" completed keep alive response. 
+2017-02-22 22:32:42.5802|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/css/font-awesome.min.css   
+2017-02-22 22:32:42.5808|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/css/font-awesome.min.css'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/css/font-awesome.min.css' 
+2017-02-22 22:32:42.5820|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1.8498ms 200 text/css 
+2017-02-22 22:32:42.5820|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDO" completed keep alive response. 
+2017-02-22 22:32:42.9390|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/images/banner.jpg   
+2017-02-22 22:32:42.9390|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/images/banner.jpg'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/images/banner.jpg' 
+2017-02-22 22:32:42.9397|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/css/images/bars.svg   
+2017-02-22 22:32:42.9397|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/css/images/bars.svg'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/css/images/bars.svg' 
+2017-02-22 22:32:42.9409|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1.1652ms 200 image/svg+xml 
+2017-02-22 22:32:42.9409|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDL" completed keep alive response. 
+2017-02-22 22:32:42.9597|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/css/images/close.svg   
+2017-02-22 22:32:42.9602|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/css/images/close.svg'. Physical path: '/Users/Jezza/Documents/MoviesExtra/src/Movies/wwwroot/css/images/close.svg' 
+2017-02-22 22:32:42.9608|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1.1296ms 200 image/svg+xml 
+2017-02-22 22:32:42.9608|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDL" completed keep alive response. 
+2017-02-22 22:32:42.9853|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 46.266ms 200 image/jpeg 
+2017-02-22 22:32:42.9853|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDO" completed keep alive response. 
+2017-02-22 22:32:50.7710|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/Account/Login   
+2017-02-22 22:32:50.7723|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /Account/Login does not match a supported file type 
+2017-02-22 22:32:50.7727|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-02-22 22:32:50.7828|2|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'Movies.Controllers.AccountController.Login (Movies)' with id 'a9768e6c-1a2b-43e0-88aa-36c18d582a0d' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2017-02-22 22:32:50.7843|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action Movies.Controllers.AccountController.Login (Movies) 
+2017-02-22 22:32:50.8677|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method Movies.Controllers.AccountController.Login (Movies) with arguments () - ModelState is Valid 
+2017-02-22 22:32:50.8677|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method Movies.Controllers.AccountController.Login (Movies), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-02-22 22:32:50.8677|1|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view 'Login' in controller 'Account'. 
+2017-02-22 22:32:50.8687|1|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Account/Login.cshtml' started. 
+2017-02-22 22:32:50.9470|2|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Account/Login.cshtml' completed in 78.2561ms. 
+2017-02-22 22:32:50.9470|1|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Account/Login.cshtml' started. 
+2017-02-22 22:32:51.1825|2|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Account/Login.cshtml' completed in 234.0871ms. 
+2017-02-22 22:32:51.1825|2|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Login' was found. 
+2017-02-22 22:32:51.1839|1|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Account/Login.cshtml. 
+2017-02-22 22:32:51.2854|37|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|DEBUG|Reading data from file '/Users/Jezza/.aspnet/DataProtection-Keys/key-9fd077a5-174b-46b0-9560-c5ae0c36b798.xml'. 
+2017-02-22 22:32:51.3057|18|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Found key {9fd077a5-174b-46b0-9560-c5ae0c36b798}. 
+2017-02-22 22:32:51.3578|13|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|DEBUG|Considering key {9fd077a5-174b-46b0-9560-c5ae0c36b798} with expiration date 2017-02-11 21:22:16Z as default key. 
+2017-02-22 22:32:51.3578|14|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|DEBUG|Key {9fd077a5-174b-46b0-9560-c5ae0c36b798} is no longer under consideration as default key because it is expired, revoked, or cannot be deciphered. 
+2017-02-22 22:32:51.3791|11|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptor|DEBUG|Using managed symmetric algorithm 'System.Security.Cryptography.Aes'. 
+2017-02-22 22:32:51.3812|10|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptor|DEBUG|Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'. 
+2017-02-22 22:32:51.3971|53|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|DEBUG|Repository contains no viable default key. Caller should generate a key with immediate activation. 
+2017-02-22 22:32:51.3975|57|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|DEBUG|Policy resolution states that a new key should be added to the key ring. 
+2017-02-22 22:32:51.4020|58|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|INFO|Creating key {3cfaa763-d23f-4525-ae10-e5c1f209fdee} with creation date 2017-02-22 11:32:51Z, activation date 2017-02-22 11:32:51Z, and expiration date 2017-05-23 11:32:51Z. 
+2017-02-22 22:32:51.4086|32|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Descriptor deserializer type for key {3cfaa763-d23f-4525-ae10-e5c1f209fdee} is 'Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60'. 
+2017-02-22 22:32:51.4138|34|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|No key escrow sink found. Not writing key {3cfaa763-d23f-4525-ae10-e5c1f209fdee} to escrow. 
+2017-02-22 22:32:51.4138|35|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|WARN|No XML encryptor configured. Key {3cfaa763-d23f-4525-ae10-e5c1f209fdee} may be persisted to storage in unencrypted form. 
+2017-02-22 22:32:51.4188|39|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|INFO|Writing data to file '/Users/Jezza/.aspnet/DataProtection-Keys/key-3cfaa763-d23f-4525-ae10-e5c1f209fdee.xml'. 
+2017-02-22 22:32:51.4203|23|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Key cache expiration token triggered by 'CreateNewKey' operation. 
+2017-02-22 22:32:51.4207|37|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|DEBUG|Reading data from file '/Users/Jezza/.aspnet/DataProtection-Keys/key-3cfaa763-d23f-4525-ae10-e5c1f209fdee.xml'. 
+2017-02-22 22:32:51.4207|37|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|DEBUG|Reading data from file '/Users/Jezza/.aspnet/DataProtection-Keys/key-9fd077a5-174b-46b0-9560-c5ae0c36b798.xml'. 
+2017-02-22 22:32:51.4207|18|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Found key {3cfaa763-d23f-4525-ae10-e5c1f209fdee}. 
+2017-02-22 22:32:51.4214|18|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Found key {9fd077a5-174b-46b0-9560-c5ae0c36b798}. 
+2017-02-22 22:32:51.4224|13|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|DEBUG|Considering key {3cfaa763-d23f-4525-ae10-e5c1f209fdee} with expiration date 2017-05-23 11:32:51Z as default key. 
+2017-02-22 22:32:51.4224|11|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptor|DEBUG|Using managed symmetric algorithm 'System.Security.Cryptography.Aes'. 
+2017-02-22 22:32:51.4224|10|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptor|DEBUG|Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'. 
+2017-02-22 22:32:51.4247|2|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|DEBUG|Using key {3cfaa763-d23f-4525-ae10-e5c1f209fdee} as the default key. 
+2017-02-22 22:32:51.4279|31|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {3cfaa763-d23f-4525-ae10-e5c1f209fdee} with purposes ('/Users/Jezza/Documents/MoviesExtra/src/Movies', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1'). 
+2017-02-22 22:32:51.4351|31|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {3cfaa763-d23f-4525-ae10-e5c1f209fdee} with purposes ('/Users/Jezza/Documents/MoviesExtra/src/Movies', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1'). 
+2017-02-22 22:32:51.4436|5|Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgery|DEBUG|A new antiforgery cookie token was created. 
+2017-02-22 22:32:51.5776|1|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view '_Layout' in controller 'Account'. 
+2017-02-22 22:32:51.5835|1|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view '_ValidationScriptsPartial' in controller 'Account'. 
+2017-02-22 22:32:51.5835|1|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Shared/_ValidationScriptsPartial.cshtml' started. 
+2017-02-22 22:32:51.5886|2|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Shared/_ValidationScriptsPartial.cshtml' completed in 4.5885ms. 
+2017-02-22 22:32:51.5886|1|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Shared/_ValidationScriptsPartial.cshtml' started. 
+2017-02-22 22:32:51.6313|2|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Shared/_ValidationScriptsPartial.cshtml' completed in 42.2087ms. 
+2017-02-22 22:32:51.6532|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action Movies.Controllers.AccountController.Login (Movies) in 868.5631ms 
+2017-02-22 22:32:51.6546|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 883.6845ms 200 text/html; charset=utf-8 
+2017-02-22 22:32:51.6546|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDO" completed keep alive response. 
+2017-02-22 22:32:51.6719|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/css/movie-list.css   
+2017-02-22 22:32:51.6755|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /css/movie-list.css was not modified 
+2017-02-22 22:32:51.6797|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /css/movie-list.css 
+2017-02-22 22:32:51.6807|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 8.7736ms 304 text/css 
+2017-02-22 22:32:51.6893|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDO" completed keep alive response. 
+2017-02-22 22:32:55.0609|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/   
+2017-02-22 22:32:55.0609|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path / does not match a supported file type 
+2017-02-22 22:32:55.0631|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-02-22 22:32:55.0634|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action Movies.Controllers.HomeController.Index (Movies) 
+2017-02-22 22:32:55.0634|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method Movies.Controllers.HomeController.Index (Movies) with arguments () - ModelState is Valid 
+2017-02-22 22:32:55.0634|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method Movies.Controllers.HomeController.Index (Movies), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-02-22 22:32:55.0634|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'Index' in controller 'Home'. 
+2017-02-22 22:32:55.0634|2|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Index' was found. 
+2017-02-22 22:32:55.0643|1|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Home/Index.cshtml. 
+2017-02-22 22:32:55.0643|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view '_Layout' in controller 'Home'. 
+2017-02-22 22:32:55.0643|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action Movies.Controllers.HomeController.Index (Movies) in 1.324ms 
+2017-02-22 22:32:55.0643|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 4.3173ms 200 text/html; charset=utf-8 
+2017-02-22 22:32:55.0655|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDO" completed keep alive response. 
+2017-02-22 22:32:59.7863|5|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting shutdown 
+2017-02-22 22:32:59.7994|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDM" disconnecting. 
+2017-02-22 22:32:59.7994|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDO" disconnecting. 
+2017-02-22 22:32:59.7994|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDK" disconnecting. 
+2017-02-22 22:32:59.8003|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDM" sending FIN. 
+2017-02-22 22:32:59.8015|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDL" disconnecting. 
+2017-02-22 22:32:59.8015|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDL" sending FIN. 
+2017-02-22 22:32:59.8015|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDJ" disconnecting. 
+2017-02-22 22:32:59.8015|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDN" disconnecting. 
+2017-02-22 22:32:59.8021|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDK" sending FIN. 
+2017-02-22 22:32:59.8021|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDO" sending FIN. 
+2017-02-22 22:32:59.8048|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDL" sent FIN with status "0". 
+2017-02-22 22:32:59.8048|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDM" sent FIN with status "0". 
+2017-02-22 22:32:59.8073|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDL" stopped. 
+2017-02-22 22:32:59.8073|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDJ" sending FIN. 
+2017-02-22 22:32:59.8073|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDM" stopped. 
+2017-02-22 22:32:59.8073|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDK" sent FIN with status "0". 
+2017-02-22 22:32:59.8081|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDK" stopped. 
+2017-02-22 22:32:59.8081|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDO" sent FIN with status "0". 
+2017-02-22 22:32:59.8081|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDO" stopped. 
+2017-02-22 22:32:59.8073|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDN" sending FIN. 
+2017-02-22 22:32:59.8081|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDJ" sent FIN with status "0". 
+2017-02-22 22:32:59.8081|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDJ" stopped. 
+2017-02-22 22:32:59.8295|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDN" sent FIN with status "0". 
+2017-02-22 22:32:59.8295|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2P9AGMDN" stopped. 
+2017-02-22 22:34:53.4329|0|Microsoft.Extensions.DependencyInjection.DataProtectionServices|INFO|User profile is available. Using '/Users/Jezza/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest. 
+2017-02-22 22:34:53.5412|3|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-02-22 22:34:53.6015|4|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-02-22 22:34:56.3346|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2R9PB5IJ" started. 
+2017-02-22 22:34:56.4254|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/   
+2017-02-22 22:34:56.4444|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path / does not match a supported file type 
+2017-02-22 22:34:56.6241|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-02-22 22:34:56.7218|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action Movies.Controllers.HomeController.Index (Movies) 
+2017-02-22 22:34:56.8848|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method Movies.Controllers.HomeController.Index (Movies) with arguments () - ModelState is Valid 
+2017-02-22 22:34:56.8897|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method Movies.Controllers.HomeController.Index (Movies), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-02-22 22:34:57.0046|1|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view 'Index' in controller 'Home'. 
+2017-02-22 22:34:57.0439|1|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Index.cshtml' started. 
+2017-02-22 22:34:57.5887|2|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Index.cshtml' completed in 542.2492ms. 
+2017-02-22 22:34:57.5947|1|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' started. 
+2017-02-22 22:34:58.7015|2|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' completed in 1106.6005ms. 
+2017-02-22 22:34:58.7061|1|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/_ViewStart.cshtml' started. 
+2017-02-22 22:34:58.7098|2|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/_ViewStart.cshtml' completed in 3.4863ms. 
+2017-02-22 22:34:58.7098|1|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/_ViewStart.cshtml' started. 
+2017-02-22 22:34:58.7496|2|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/_ViewStart.cshtml' completed in 39.4715ms. 
+2017-02-22 22:34:58.7573|2|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Index' was found. 
+2017-02-22 22:34:58.7588|1|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Home/Index.cshtml. 
+2017-02-22 22:34:58.9000|1|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view '_Layout' in controller 'Home'. 
+2017-02-22 22:34:58.9007|1|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Shared/_Layout.cshtml' started. 
+2017-02-22 22:34:58.9440|2|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Shared/_Layout.cshtml' completed in 42.6978ms. 
+2017-02-22 22:34:58.9443|1|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Shared/_Layout.cshtml' started. 
+2017-02-22 22:34:59.0722|2|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Shared/_Layout.cshtml' completed in 126.9058ms. 
+2017-02-22 22:34:59.2649|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action Movies.Controllers.HomeController.Index (Movies) in 2542.7199ms 
+2017-02-22 22:34:59.3016|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 2892.5657ms 200 text/html; charset=utf-8 
+2017-02-22 22:34:59.3179|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2R9PB5IJ" completed keep alive response. 
+2017-02-22 22:35:03.4116|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/Account/Login   
+2017-02-22 22:35:03.4127|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /Account/Login does not match a supported file type 
+2017-02-22 22:35:03.4140|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-02-22 22:35:03.4369|2|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'Movies.Controllers.AccountController.Login (Movies)' with id 'b8bdd75e-566f-44d8-be45-ea4908c4fb3e' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2017-02-22 22:35:03.4388|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action Movies.Controllers.AccountController.Login (Movies) 
+2017-02-22 22:35:03.5602|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method Movies.Controllers.AccountController.Login (Movies) with arguments () - ModelState is Valid 
+2017-02-22 22:35:03.5602|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method Movies.Controllers.AccountController.Login (Movies), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-02-22 22:35:03.5619|1|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view 'Login' in controller 'Account'. 
+2017-02-22 22:35:03.5623|1|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Account/Login.cshtml' started. 
+2017-02-22 22:35:03.6725|2|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Account/Login.cshtml' completed in 109.8252ms. 
+2017-02-22 22:35:03.6732|1|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Account/Login.cshtml' started. 
+2017-02-22 22:35:03.9507|2|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Account/Login.cshtml' completed in 276.5475ms. 
+2017-02-22 22:35:03.9514|2|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Login' was found. 
+2017-02-22 22:35:03.9514|1|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Account/Login.cshtml. 
+2017-02-22 22:35:04.0563|5|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing unprotect operation to key {3cfaa763-d23f-4525-ae10-e5c1f209fdee} with purposes ('/Users/Jezza/Documents/MoviesExtra/src/Movies', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1'). 
+2017-02-22 22:35:04.0703|37|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|DEBUG|Reading data from file '/Users/Jezza/.aspnet/DataProtection-Keys/key-3cfaa763-d23f-4525-ae10-e5c1f209fdee.xml'. 
+2017-02-22 22:35:04.0792|37|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|DEBUG|Reading data from file '/Users/Jezza/.aspnet/DataProtection-Keys/key-9fd077a5-174b-46b0-9560-c5ae0c36b798.xml'. 
+2017-02-22 22:35:04.0919|18|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Found key {3cfaa763-d23f-4525-ae10-e5c1f209fdee}. 
+2017-02-22 22:35:04.1370|18|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Found key {9fd077a5-174b-46b0-9560-c5ae0c36b798}. 
+2017-02-22 22:35:04.1485|13|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|DEBUG|Considering key {3cfaa763-d23f-4525-ae10-e5c1f209fdee} with expiration date 2017-05-23 11:32:51Z as default key. 
+2017-02-22 22:35:04.1653|11|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptor|DEBUG|Using managed symmetric algorithm 'System.Security.Cryptography.Aes'. 
+2017-02-22 22:35:04.1669|10|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptor|DEBUG|Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'. 
+2017-02-22 22:35:04.1812|2|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|DEBUG|Using key {3cfaa763-d23f-4525-ae10-e5c1f209fdee} as the default key. 
+2017-02-22 22:35:04.2032|31|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {3cfaa763-d23f-4525-ae10-e5c1f209fdee} with purposes ('/Users/Jezza/Documents/MoviesExtra/src/Movies', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1'). 
+2017-02-22 22:35:04.2101|6|Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgery|DEBUG|An antiforgery cookie token was reused. 
+2017-02-22 22:35:04.3646|1|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view '_Layout' in controller 'Account'. 
+2017-02-22 22:35:04.3714|1|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view '_ValidationScriptsPartial' in controller 'Account'. 
+2017-02-22 22:35:04.3714|1|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Shared/_ValidationScriptsPartial.cshtml' started. 
+2017-02-22 22:35:04.3766|2|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Shared/_ValidationScriptsPartial.cshtml' completed in 4.6427ms. 
+2017-02-22 22:35:04.3766|1|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Shared/_ValidationScriptsPartial.cshtml' started. 
+2017-02-22 22:35:04.4261|2|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Shared/_ValidationScriptsPartial.cshtml' completed in 49.265ms. 
+2017-02-22 22:35:04.4467|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action Movies.Controllers.AccountController.Login (Movies) in 1007.4515ms 
+2017-02-22 22:35:04.4480|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1036.6036ms 200 text/html; charset=utf-8 
+2017-02-22 22:35:04.4483|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2R9PB5IJ" completed keep alive response. 
+2017-02-22 22:35:07.9094|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 POST http://localhost:5000/Account/Login application/x-www-form-urlencoded 232 
+2017-02-22 22:35:07.9094|1|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|POST requests are not supported 
+2017-02-22 22:35:07.9102|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-02-22 22:35:07.9111|2|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'Movies.Controllers.AccountController.Login (Movies)' with id '6c2a7374-2a20-44a3-8dd3-c5f30301de1a' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2017-02-22 22:35:07.9132|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action Movies.Controllers.AccountController.Login (Movies) 
+2017-02-22 22:35:07.9488|5|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing unprotect operation to key {3cfaa763-d23f-4525-ae10-e5c1f209fdee} with purposes ('/Users/Jezza/Documents/MoviesExtra/src/Movies', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1'). 
+2017-02-22 22:35:07.9494|5|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing unprotect operation to key {3cfaa763-d23f-4525-ae10-e5c1f209fdee} with purposes ('/Users/Jezza/Documents/MoviesExtra/src/Movies', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1'). 
+2017-02-22 22:35:07.9522|2|Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgery|DEBUG|Antiforgery successfully validated a request. 
+2017-02-22 22:35:08.0123|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method Movies.Controllers.AccountController.Login (Movies) with arguments (Movies.Models.AccountViewModels.LoginViewModel, ) - ModelState is Valid 
+2017-02-22 22:35:08.6963|2|Microsoft.EntityFrameworkCore.Query.RelationalQueryCompilationContextFactory|DEBUG|Compiling query model: 'from ApplicationUser u in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Movies.Models.ApplicationUser]) where ([u].NormalizedUserName == __normalizedUserName_0) select [u] => FirstOrDefault()' 
+2017-02-22 22:35:08.7301|3|Microsoft.EntityFrameworkCore.Query.RelationalQueryCompilationContextFactory|DEBUG|Optimized query model: 'from ApplicationUser u in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Movies.Models.ApplicationUser]) where ([u].NormalizedUserName == __normalizedUserName_0) select [u] => FirstOrDefault()' 
+2017-02-22 22:35:09.0088|5|Microsoft.EntityFrameworkCore.Query.RelationalQueryCompilationContextFactory|DEBUG|TRACKED: True
+(QueryContext queryContext) => IAsyncEnumerable<ApplicationUser> _ToSequence(
+    task: Task<ApplicationUser> _FirstOrDefault(
+        source: IAsyncEnumerable<ApplicationUser> _ShapedQuery(
+            queryContext: queryContext, 
+            shaperCommandContext: SelectExpression: 
+                SELECT "u"."Id", "u"."AccessFailedCount", "u"."ConcurrencyStamp", "u"."Email", "u"."EmailConfirmed", "u"."LockoutEnabled", "u"."LockoutEnd", "u"."NormalizedEmail", "u"."NormalizedUserName", "u"."PasswordHash", "u"."PhoneNumber", "u"."PhoneNumberConfirmed", "u"."SecurityStamp", "u"."TwoFactorEnabled", "u"."UserName"
+                FROM "AspNetUsers" AS "u"
+                WHERE "u"."NormalizedUserName" = @__normalizedUserName_0
+                LIMIT 1
+            , 
+            shaper: UnbufferedEntityShaper<ApplicationUser>
+        )
+        , 
+        cancellationToken: queryContext.CancellationToken
+    )
+)
+ 
+2017-02-22 22:35:09.0563|3|Microsoft.EntityFrameworkCore.Storage.Internal.SqliteRelationalConnection|DEBUG|Opening connection to database 'main' on server './Movies.db'. 
+2017-02-22 22:35:09.0960|1|Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommandBuilderFactory|INFO|Executed DbCommand (1,111ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON; 
+2017-02-22 22:35:09.1317|1|Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommandBuilderFactory|INFO|Executed DbCommand (1,432ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT "u"."Id", "u"."AccessFailedCount", "u"."ConcurrencyStamp", "u"."Email", "u"."EmailConfirmed", "u"."LockoutEnabled", "u"."LockoutEnd", "u"."NormalizedEmail", "u"."NormalizedUserName", "u"."PasswordHash", "u"."PhoneNumber", "u"."PhoneNumberConfirmed", "u"."SecurityStamp", "u"."TwoFactorEnabled", "u"."UserName"
+FROM "AspNetUsers" AS "u"
+WHERE "u"."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1 
+2017-02-22 22:35:09.1905|4|Microsoft.EntityFrameworkCore.Storage.Internal.SqliteRelationalConnection|DEBUG|Closing connection to database 'main' on server '/Users/Jezza/Documents/MoviesExtra/src/Movies/bin/Debug/netcoreapp1.0/Movies.db'. 
+2017-02-22 22:35:09.3862|2|Microsoft.EntityFrameworkCore.Query.RelationalQueryCompilationContextFactory|DEBUG|Compiling query model: 'from IdentityUserRole`1 userRole in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole`1[System.String]]) join IdentityRole role in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole]) on [userRole].RoleId equals [role].Id where [userRole].UserId.Equals(__userId_0) select [role].Name' 
+2017-02-22 22:35:09.3929|3|Microsoft.EntityFrameworkCore.Query.RelationalQueryCompilationContextFactory|DEBUG|Optimized query model: 'from IdentityUserRole`1 userRole in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserRole`1[System.String]]) join IdentityRole role in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole]) on [userRole].RoleId equals [role].Id where [userRole].UserId.Equals(__userId_0) select [role].Name' 
+2017-02-22 22:35:09.4368|5|Microsoft.EntityFrameworkCore.Query.RelationalQueryCompilationContextFactory|DEBUG|TRACKED: True
+(QueryContext queryContext) => IAsyncEnumerable<string> _Select(
+    source: IAsyncEnumerable<TransparentIdentifier<ValueBuffer, ValueBuffer>> _ShapedQuery(
+        queryContext: queryContext, 
+        shaperCommandContext: SelectExpression: 
+            SELECT "role"."Name"
+            FROM "AspNetUserRoles" AS "userRole"
+            INNER JOIN "AspNetRoles" AS "role" ON "userRole"."RoleId" = "role"."Id"
+            WHERE "userRole"."UserId" = @__userId_0
+        , 
+        shaper: CompositeShaper`3
+    )
+    , 
+    selector: (TransparentIdentifier<ValueBuffer, ValueBuffer> t0) => (string) object t0.Inner.get_Item(0)
+)
+ 
+2017-02-22 22:35:09.4443|3|Microsoft.EntityFrameworkCore.Storage.Internal.SqliteRelationalConnection|DEBUG|Opening connection to database 'main' on server './Movies.db'. 
+2017-02-22 22:35:09.4443|1|Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommandBuilderFactory|INFO|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON; 
+2017-02-22 22:35:09.4458|1|Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommandBuilderFactory|INFO|Executed DbCommand (52ms) [Parameters=[@__userId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT "role"."Name"
+FROM "AspNetUserRoles" AS "userRole"
+INNER JOIN "AspNetRoles" AS "role" ON "userRole"."RoleId" = "role"."Id"
+WHERE "userRole"."UserId" = @__userId_0 
+2017-02-22 22:35:09.4472|4|Microsoft.EntityFrameworkCore.Storage.Internal.SqliteRelationalConnection|DEBUG|Closing connection to database 'main' on server '/Users/Jezza/Documents/MoviesExtra/src/Movies/bin/Debug/netcoreapp1.0/Movies.db'. 
+2017-02-22 22:35:09.4621|2|Microsoft.EntityFrameworkCore.Query.RelationalQueryCompilationContextFactory|DEBUG|Compiling query model: 'from IdentityUserClaim`1 uc in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserClaim`1[System.String]]) where [uc].UserId.Equals(__user_Id_0) select [uc].ToClaim()' 
+2017-02-22 22:35:09.4625|3|Microsoft.EntityFrameworkCore.Query.RelationalQueryCompilationContextFactory|DEBUG|Optimized query model: 'from IdentityUserClaim`1 uc in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserClaim`1[System.String]]) where [uc].UserId.Equals(__user_Id_0) select [uc].ToClaim()' 
+2017-02-22 22:35:09.4721|5|Microsoft.EntityFrameworkCore.Query.RelationalQueryCompilationContextFactory|DEBUG|TRACKED: True
+(QueryContext queryContext) => IAsyncEnumerable<Claim> _Select(
+    source: IAsyncEnumerable<IdentityUserClaim<string>> _ShapedQuery(
+        queryContext: queryContext, 
+        shaperCommandContext: SelectExpression: 
+            SELECT "uc"."Id", "uc"."ClaimType", "uc"."ClaimValue", "uc"."UserId"
+            FROM "AspNetUserClaims" AS "uc"
+            WHERE "uc"."UserId" = @__user_Id_0
+        , 
+        shaper: UnbufferedEntityShaper<IdentityUserClaim`1>
+    )
+    , 
+    selector: (IdentityUserClaim<string> uc) => Claim uc.ToClaim()
+)
+ 
+2017-02-22 22:35:09.4739|3|Microsoft.EntityFrameworkCore.Storage.Internal.SqliteRelationalConnection|DEBUG|Opening connection to database 'main' on server './Movies.db'. 
+2017-02-22 22:35:09.4743|1|Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommandBuilderFactory|INFO|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON; 
+2017-02-22 22:35:09.4751|1|Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommandBuilderFactory|INFO|Executed DbCommand (51ms) [Parameters=[@__user_Id_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT "uc"."Id", "uc"."ClaimType", "uc"."ClaimValue", "uc"."UserId"
+FROM "AspNetUserClaims" AS "uc"
+WHERE "uc"."UserId" = @__user_Id_0 
+2017-02-22 22:35:09.4763|4|Microsoft.EntityFrameworkCore.Storage.Internal.SqliteRelationalConnection|DEBUG|Closing connection to database 'main' on server '/Users/Jezza/Documents/MoviesExtra/src/Movies/bin/Debug/netcoreapp1.0/Movies.db'. 
+2017-02-22 22:35:09.5022|31|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {3cfaa763-d23f-4525-ae10-e5c1f209fdee} with purposes ('/Users/Jezza/Documents/MoviesExtra/src/Movies', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2'). 
+2017-02-22 22:35:09.5156|10|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware|INFO|AuthenticationScheme: Identity.Application signed in. 
+2017-02-22 22:35:09.5181|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method Movies.Controllers.AccountController.Login (Movies), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult. 
+2017-02-22 22:35:09.5223|1|Microsoft.AspNetCore.Mvc.RedirectToActionResult|INFO|Executing RedirectResult, redirecting to /. 
+2017-02-22 22:35:09.5235|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action Movies.Controllers.AccountController.Login (Movies) in 1609.9847ms 
+2017-02-22 22:35:09.5248|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1615.4122ms 302  
+2017-02-22 22:35:09.5271|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2R9PB5IJ" completed keep alive response. 
+2017-02-22 22:35:09.5305|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/   
+2017-02-22 22:35:09.5305|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path / does not match a supported file type 
+2017-02-22 22:35:09.5319|5|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing unprotect operation to key {3cfaa763-d23f-4525-ae10-e5c1f209fdee} with purposes ('/Users/Jezza/Documents/MoviesExtra/src/Movies', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2'). 
+2017-02-22 22:35:09.5439|3|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware|INFO|HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application. 
+2017-02-22 22:35:09.5443|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-02-22 22:35:09.5443|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action Movies.Controllers.HomeController.Index (Movies) 
+2017-02-22 22:35:09.5443|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method Movies.Controllers.HomeController.Index (Movies) with arguments () - ModelState is Valid 
+2017-02-22 22:35:09.5453|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method Movies.Controllers.HomeController.Index (Movies), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-02-22 22:35:09.5473|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'Index' in controller 'Home'. 
+2017-02-22 22:35:09.5473|2|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Index' was found. 
+2017-02-22 22:35:09.5473|1|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Home/Index.cshtml. 
+2017-02-22 22:35:09.5482|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view '_Layout' in controller 'Home'. 
+2017-02-22 22:35:09.5482|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action Movies.Controllers.HomeController.Index (Movies) in 3.8069ms 
+2017-02-22 22:35:09.5482|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 18.4085ms 200 text/html; charset=utf-8 
+2017-02-22 22:35:09.5491|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2R9PB5IJ" completed keep alive response. 
+2017-02-22 22:35:12.5859|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/Home/Movies   
+2017-02-22 22:35:12.5862|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /Home/Movies does not match a supported file type 
+2017-02-22 22:35:12.5875|5|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing unprotect operation to key {3cfaa763-d23f-4525-ae10-e5c1f209fdee} with purposes ('/Users/Jezza/Documents/MoviesExtra/src/Movies', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2'). 
+2017-02-22 22:35:12.5898|3|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware|INFO|HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application. 
+2017-02-22 22:35:12.5905|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-02-22 22:35:12.5930|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action Movies.Controllers.HomeController.Movies (Movies) 
+2017-02-22 22:35:12.6342|1|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful for user: jusso15@gmail.com. 
+2017-02-22 22:35:12.6352|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method Movies.Controllers.HomeController.Movies (Movies) with arguments () - ModelState is Valid 
+2017-02-22 22:35:12.7077|2|Microsoft.EntityFrameworkCore.Query.RelationalQueryCompilationContextFactory|DEBUG|Compiling query model: 'from Movie m in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Movies.Data.Movie]) orderby [m].Title asc select [m]' 
+2017-02-22 22:35:12.7210|3|Microsoft.EntityFrameworkCore.Query.RelationalQueryCompilationContextFactory|DEBUG|Optimized query model: 'from Movie m in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Movies.Data.Movie]) orderby [m].Title asc select [m]' 
+2017-02-22 22:35:12.7417|5|Microsoft.EntityFrameworkCore.Query.RelationalQueryCompilationContextFactory|DEBUG|TRACKED: True
+(QueryContext queryContext) => IAsyncEnumerable<Movie> _ShapedQuery(
+    queryContext: queryContext, 
+    shaperCommandContext: SelectExpression: 
+        SELECT "m"."id", "m"."Genre", "m"."MainActor", "m"."ReleaseDate", "m"."Title", "m"."Worth", "m"."imageUrl"
+        FROM "Movies" AS "m"
+        ORDER BY "m"."Title"
+    , 
+    shaper: UnbufferedEntityShaper<Movie>
+)
+ 
+2017-02-22 22:35:12.7534|3|Microsoft.EntityFrameworkCore.Storage.Internal.SqliteRelationalConnection|DEBUG|Opening connection to database 'main' on server './Movies.db'. 
+2017-02-22 22:35:12.7534|1|Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommandBuilderFactory|INFO|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON; 
+2017-02-22 22:35:12.7559|1|Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommandBuilderFactory|INFO|Executed DbCommand (145ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "m"."id", "m"."Genre", "m"."MainActor", "m"."ReleaseDate", "m"."Title", "m"."Worth", "m"."imageUrl"
+FROM "Movies" AS "m"
+ORDER BY "m"."Title" 
+2017-02-22 22:35:12.8229|4|Microsoft.EntityFrameworkCore.Storage.Internal.SqliteRelationalConnection|DEBUG|Closing connection to database 'main' on server '/Users/Jezza/Documents/MoviesExtra/src/Movies/bin/Debug/netcoreapp1.0/Movies.db'. 
+2017-02-22 22:35:12.8283|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method Movies.Controllers.HomeController.Movies (Movies), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-02-22 22:35:12.8283|1|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view 'Movies' in controller 'Home'. 
+2017-02-22 22:35:12.8293|1|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Movies.cshtml' started. 
+2017-02-22 22:35:12.8445|2|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Movies.cshtml' completed in 14.7922ms. 
+2017-02-22 22:35:12.8445|1|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Movies.cshtml' started. 
+2017-02-22 22:35:12.9526|2|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Movies.cshtml' completed in 107.5946ms. 
+2017-02-22 22:35:12.9532|2|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Movies' was found. 
+2017-02-22 22:35:12.9532|1|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Home/Movies.cshtml. 
+2017-02-22 22:35:13.0135|1|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view 'DisplayTemplates/String' in controller 'Home'. 
+2017-02-22 22:35:13.0200|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'DisplayTemplates/String' in controller 'Home'. 
+2017-02-22 22:35:13.0207|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'DisplayTemplates/String' in controller 'Home'. 
+2017-02-22 22:35:13.0213|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'DisplayTemplates/String' in controller 'Home'. 
+2017-02-22 22:35:13.0213|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'DisplayTemplates/String' in controller 'Home'. 
+2017-02-22 22:35:13.0225|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'DisplayTemplates/String' in controller 'Home'. 
+2017-02-22 22:35:13.0231|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'DisplayTemplates/String' in controller 'Home'. 
+2017-02-22 22:35:13.0231|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'DisplayTemplates/String' in controller 'Home'. 
+2017-02-22 22:35:13.0251|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'DisplayTemplates/String' in controller 'Home'. 
+2017-02-22 22:35:13.0251|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'DisplayTemplates/String' in controller 'Home'. 
+2017-02-22 22:35:13.0264|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'DisplayTemplates/String' in controller 'Home'. 
+2017-02-22 22:35:13.0270|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'DisplayTemplates/String' in controller 'Home'. 
+2017-02-22 22:35:13.0270|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'DisplayTemplates/String' in controller 'Home'. 
+2017-02-22 22:35:13.0282|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'DisplayTemplates/String' in controller 'Home'. 
+2017-02-22 22:35:13.0282|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'DisplayTemplates/String' in controller 'Home'. 
+2017-02-22 22:35:13.0301|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'DisplayTemplates/String' in controller 'Home'. 
+2017-02-22 22:35:13.0314|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'DisplayTemplates/String' in controller 'Home'. 
+2017-02-22 22:35:13.0326|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'DisplayTemplates/String' in controller 'Home'. 
+2017-02-22 22:35:13.0337|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'DisplayTemplates/String' in controller 'Home'. 
+2017-02-22 22:35:13.0349|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'DisplayTemplates/String' in controller 'Home'. 
+2017-02-22 22:35:13.0354|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view '_Layout' in controller 'Home'. 
+2017-02-22 22:35:13.0381|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action Movies.Controllers.HomeController.Movies (Movies) in 444.113ms 
+2017-02-22 22:35:13.0381|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 452.7436ms 200 text/html; charset=utf-8 
+2017-02-22 22:35:13.0381|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2R9PB5IJ" completed keep alive response. 
+2017-02-22 22:35:19.7335|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/   
+2017-02-22 22:35:19.7348|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path / does not match a supported file type 
+2017-02-22 22:35:19.7352|5|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing unprotect operation to key {3cfaa763-d23f-4525-ae10-e5c1f209fdee} with purposes ('/Users/Jezza/Documents/MoviesExtra/src/Movies', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2'). 
+2017-02-22 22:35:19.7352|3|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware|INFO|HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application. 
+2017-02-22 22:35:19.7352|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-02-22 22:35:19.7360|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action Movies.Controllers.HomeController.Index (Movies) 
+2017-02-22 22:35:19.7360|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method Movies.Controllers.HomeController.Index (Movies) with arguments () - ModelState is Valid 
+2017-02-22 22:35:19.7360|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method Movies.Controllers.HomeController.Index (Movies), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-02-22 22:35:19.7360|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'Index' in controller 'Home'. 
+2017-02-22 22:35:19.7360|2|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Index' was found. 
+2017-02-22 22:35:19.7360|1|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Home/Index.cshtml. 
+2017-02-22 22:35:19.7370|2|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view '_Layout' in controller 'Home'. 
+2017-02-22 22:35:19.7370|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action Movies.Controllers.HomeController.Index (Movies) in 1.2071ms 
+2017-02-22 22:35:19.7370|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 4.2005ms 200 text/html; charset=utf-8 
+2017-02-22 22:35:19.7370|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2R9PB5IJ" completed keep alive response. 
+2017-02-22 22:35:24.2176|5|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting shutdown 
+2017-02-22 22:35:24.2343|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2R9PB5IJ" disconnecting. 
+2017-02-22 22:35:24.2350|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2R9PB5IJ" sending FIN. 
+2017-02-22 22:35:24.2382|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2R9PB5IJ" sent FIN with status "0". 
+2017-02-22 22:35:24.2410|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2R2R9PB5IJ" stopped. 

@@ -98,7 +98,7 @@ namespace Movies.Controllers
                 }
                 catch (Exception e)
                 {
-                    Log.LogException(LogLevel.Error, "There was an error adding Movie ", e.InnerException);
+                    Log.Log(LogLevel.Error, "There was an error adding Movie ", e.InnerException);
                     return Redirect("Home/Error");
                 }
                 
@@ -168,7 +168,7 @@ namespace Movies.Controllers
                     }
                     else
                     {
-                        Log.LogException(LogLevel.Error, "Movie already exists! ", e.InnerException);
+                        Log.Log(LogLevel.Error, "Movie already exists! ", e.InnerException);
                     }
                 }
                 return RedirectToAction("Index");
@@ -190,8 +190,8 @@ namespace Movies.Controllers
 
             if (movie == null)
             {
-                return NotFound();
                 Log.Log(LogLevel.Warn, "Movie Not found");
+                return NotFound();
             }
 
             if(email == userAdminEmail) 
@@ -216,7 +216,7 @@ namespace Movies.Controllers
             }
             catch (Exception e)
             {
-                Log.LogException(LogLevel.Error, "There was an error removing Movie ", e.InnerException);
+                Log.Log(LogLevel.Error, "There was an error removing Movie ", e.InnerException);
                 return Redirect("/Home/Error");
             }
         }
