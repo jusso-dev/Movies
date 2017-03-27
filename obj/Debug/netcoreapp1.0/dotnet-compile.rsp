@@ -245,7 +245,6 @@
 /Users/Jezza/Documents/MoviesExtra/src/Movies/Controllers/AccountController.cs
 /Users/Jezza/Documents/MoviesExtra/src/Movies/Controllers/HomeController.cs
 /Users/Jezza/Documents/MoviesExtra/src/Movies/Controllers/ManageController.cs
-/Users/Jezza/Documents/MoviesExtra/src/Movies/Controllers/MovieController.cs
 /Users/Jezza/Documents/MoviesExtra/src/Movies/Data/ApplicationDbContext.cs
 /Users/Jezza/Documents/MoviesExtra/src/Movies/Data/Movie.cs
 /Users/Jezza/Documents/MoviesExtra/src/Movies/Data/Migrations/00000000000000_CreateIdentitySchema.cs

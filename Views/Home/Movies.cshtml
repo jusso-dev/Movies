@@ -1,6 +1,4 @@
-﻿@model IEnumerable<Movies.Data.Movie>
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -32,7 +30,7 @@
 										<ul>
 											<li><a href="/">Home</a></li>
 											<li><a href="/Home/About">About</a></li>
-											<li><a href="/Movie/Index">Movie Admin</a></li>
+											<li><a href="/Home/CreateMovie">Movie Admin</a></li>
 										</ul>
 									</div>
 								</li>
@@ -40,22 +38,15 @@
 						</nav>
 					</header>
 <body>
-      <div class="row-movies">
-@foreach (var item in Model) {
-            <div class="col-xs-6 col-md-4"><img src="@Html.DisplayFor(model => item.imageUrl)" class="image"/>
-                <h4>@Html.DisplayFor(model => item.Title)</h4>
-                    <p>@Html.DisplayFor(model => item.MainActor)</p>
-                    <p>@Html.DisplayFor(model => item.Genre)</p>
-            </div>
-}
-
+      <div class="row" id="moviedata">
+		<div id="loading">
+		<div id="error"></div>		
 <!-- Scripts -->
+		<script src="~/js/jquery.min.js"></script>
         <script src="~/js/jquery.scrollex.min.js"></script>
         <script src="~/js/jquery.scrolly.min.js"></script>
-        <script src="~/js/main.js"></script>
-        <script src="~/js/site.js"></script>
-        <script src="~/js/site.min.js"></script>
-        <script src="~/js/skel.min.js"></script>
+		<script src="~/js/skel.min.js"></script>
+		<script src="~/js/getmovie.js"></script>
         <script src="~/js/util.js"></script>
 </body>
 </html>

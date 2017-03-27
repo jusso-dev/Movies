@@ -1,0 +1,67 @@
+﻿<head>
+   <meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="wwwroot/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="~/css/main.css" />
+		<link rel="stylesheet" href="~/css/movies.css" />
+		<link rel="stylesheet" href="~/fonts/fontawesome-webfont.eot"></link>
+		<link rel="stylesheet" href="~/fonts/fontawesome-webfont.svg"></link>
+		<link rel="stylesheet" href="~/fonts/fontawesome-webfont.ttf"></link>
+		<link rel="stylesheet" href="~/fonts/fontawesome-webfont.woff"></link>
+		<link rel="stylesheet" href="~/fonts/fontawesome-webfont.woff2"></link>
+		<link rel="stylesheet" href="~/fonts/FontAwesome.otf"></link>
+</head>
+
+<body class="body-content">
+	
+@{
+	@Html.AntiForgeryToken();
+}
+<form role="form" class="form" id="form" method="POST">
+     <div class="form-group">
+    <label for="Title">Title</label>
+    <input type="text" class="form-control" id="Title" placeholder="Title">
+  	</div>
+  	<div class="form-group">
+    <label for="Main Actor">Main Actor</label>
+    <input type="text" class="form-control" id="MainActor" placeholder="Main Actor">
+  </div>
+  <div class="form-group">
+    <label for="">Genre</label>
+    <input type="text" class="form-control" id="Genre" placeholder="Genre">
+  </div>
+  <div class="form-group">
+    <label for="imageUrl">Image Url</label>
+    <input type="text" class="form-control" id="imageUrl" placeholder="Image Url">
+  </div>
+      <button id="post" type="button" class="btn btn-primary" onclick="PostMovie()">POST</button>
+    </form>
+
+<!-- Header -->
+					<header id="header" class="alt">
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="/">Home</a></li>
+											<li><a href="/Home/Movies">Movies</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+<!-- Scripts -->
+		<script src="~/js/jquery.min.js"></script>
+    <script src="~/js/jquery.scrollex.min.js"></script>
+    <script src="~/js/jquery.scrolly.min.js"></script>
+		<script src="~/js/skel.min.js"></script>
+		<script src="~/js/postmovie.js"></script>
+    <script src="~/js/util.js"></script>
+</body>
+
+
+

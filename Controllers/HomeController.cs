@@ -35,6 +35,10 @@ namespace Movies.Controllers
 
             return View();
         }
+        public IActionResult CreateMovie()
+        {
+            return View();
+        }
 
         [AllowAnonymous]
         public IActionResult Error()
