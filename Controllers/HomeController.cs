@@ -10,7 +10,6 @@ using NLog;
 
 namespace Movies.Controllers
 {
-    [Authorize]
     public class HomeController : Controller
     {
 
@@ -21,14 +20,10 @@ namespace Movies.Controllers
         {
             _context = context;
         }
-
-        [AllowAnonymous]
         public IActionResult Index()
         {
             return View();
         }
-
-        [AllowAnonymous]
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
@@ -39,19 +34,14 @@ namespace Movies.Controllers
         {
             return View();
         }
-
-        [AllowAnonymous]
         public IActionResult Error()
         {
             return View();
         }
-
-        [AllowAnonymous]
         public IActionResult Forbidden() 
         {
             return View();
         }
-        [AllowAnonymous]
         public IActionResult AdminOnly() 
         {
             return View();
@@ -59,20 +49,7 @@ namespace Movies.Controllers
 
         public async Task <IActionResult> Movies()
         {
-            try
-            {
-                var movies = from m in _context.Movies
-                         orderby m.Title ascending
-                         select m;
-
-                return View(await movies.ToListAsync());
-            }
-            catch (Exception e)
-            {
-                Log.Log(LogLevel.Error, "There was an error getting Movies ", e.InnerException);
-                return NotFound();
-            }
-            
+            return View();
         }
     }
 }
